@@ -1,0 +1,13 @@
+[gd_scene load_steps=3 format=3 uid="uid://bpv080d78w8ia"]
+
+[ext_resource type="Script" path="res://Scripts/Scenes/LanguageDropDown.gd" id="1_88xle"]
+[ext_resource type="Theme" uid="uid://duf2gciy0wwfv" path="res://Resources/UiTheme.tres" id="1_fs8t7"]
+
+[node name="LanguageDropDown" type="OptionButton"]
+offset_right = 26.0
+offset_bottom = 21.0
+focus_mode = 0
+theme = ExtResource("1_fs8t7")
+script = ExtResource("1_88xle")
+
+[connection signal="item_selected" from="." to="." method="_on_item_selected"]

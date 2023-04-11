@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="DataSetResource" load_steps=4 format=3 uid="uid://b37hogdaiag2m"]
+
+[ext_resource type="Texture2D" uid="uid://dgtmp4bo535tf" path="res://Data/EU/Map.png" id="1_ejl8p"]
+[ext_resource type="Script" path="res://Scripts/Resources/DataSetResource.gd" id="1_guqns"]
+[ext_resource type="Texture2D" uid="uid://1remsvujc7sp" path="res://Data/EU/MiniMap.png" id="2_dm3qv"]
+
+[resource]
+script = ExtResource("1_guqns")
+Id = "eu-countries"
+MapTexture = ExtResource("1_ejl8p")
+Name = ""
+MiniMapTexture = ExtResource("2_dm3qv")
+SourceFile = "res://Data/EU/Countries/Countries.txt"

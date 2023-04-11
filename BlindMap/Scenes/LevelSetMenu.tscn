@@ -1,0 +1,56 @@
+[gd_scene load_steps=4 format=3 uid="uid://bifv7e67pgubu"]
+
+[ext_resource type="Script" path="res://Scripts/Scenes/LevelSetMenu.gd" id="1_jg2vs"]
+[ext_resource type="PackedScene" uid="uid://ccn7l1wpd8ler" path="res://Scenes/LevelButton.tscn" id="1_xetlb"]
+[ext_resource type="Theme" uid="uid://duf2gciy0wwfv" path="res://Resources/UiTheme.tres" id="3_7srdk"]
+
+[node name="MarginContainer" type="MarginContainer" node_paths=PackedStringArray("HeaderNode", "MenuItemsHolder")]
+theme_override_constants/margin_top = 15
+theme_override_constants/margin_bottom = 15
+script = ExtResource("1_jg2vs")
+HeaderNode = NodePath("VBoxContainer/Header")
+MenuItemsHolder = NodePath("VBoxContainer/HFlowContainer")
+LevelButtonScene = ExtResource("1_xetlb")
+
+[node name="VBoxContainer" type="VBoxContainer" parent="."]
+layout_mode = 2
+
+[node name="Header" type="Label" parent="VBoxContainer"]
+layout_mode = 2
+theme = ExtResource("3_7srdk")
+theme_override_colors/font_color = Color(0.411765, 0.411765, 0.411765, 1)
+theme_override_font_sizes/font_size = 30
+text = "Vše"
+
+[node name="HFlowContainer" type="HFlowContainer" parent="VBoxContainer"]
+custom_minimum_size = Vector2(800, 0)
+layout_mode = 2
+theme_override_constants/h_separation = 3
+theme_override_constants/v_separation = 3
+
+[node name="LevelButton" parent="VBoxContainer/HFlowContainer" instance=ExtResource("1_xetlb")]
+layout_mode = 2
+
+[node name="LevelButton2" parent="VBoxContainer/HFlowContainer" instance=ExtResource("1_xetlb")]
+layout_mode = 2
+
+[node name="LevelButton3" parent="VBoxContainer/HFlowContainer" instance=ExtResource("1_xetlb")]
+layout_mode = 2
+
+[node name="LevelButton4" parent="VBoxContainer/HFlowContainer" instance=ExtResource("1_xetlb")]
+layout_mode = 2
+
+[node name="LevelButton5" parent="VBoxContainer/HFlowContainer" instance=ExtResource("1_xetlb")]
+layout_mode = 2
+
+[node name="LevelButton6" parent="VBoxContainer/HFlowContainer" instance=ExtResource("1_xetlb")]
+layout_mode = 2
+
+[node name="LevelButton7" parent="VBoxContainer/HFlowContainer" instance=ExtResource("1_xetlb")]
+layout_mode = 2
+
+[node name="LevelButton8" parent="VBoxContainer/HFlowContainer" instance=ExtResource("1_xetlb")]
+layout_mode = 2
+
+[node name="LevelButton9" parent="VBoxContainer/HFlowContainer" instance=ExtResource("1_xetlb")]
+layout_mode = 2

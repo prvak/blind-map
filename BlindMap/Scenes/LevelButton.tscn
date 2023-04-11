@@ -1,0 +1,63 @@
+[gd_scene load_steps=8 format=3 uid="uid://ccn7l1wpd8ler"]
+
+[ext_resource type="Texture2D" uid="uid://d3cceygh2xeu3" path="res://Graphics/UI/Button.png" id="1_kuyqn"]
+[ext_resource type="Script" path="res://Scripts/Scenes/LevelButton.gd" id="1_olr3w"]
+[ext_resource type="Resource" uid="uid://dg6hv4y6cteq5" path="res://Resources/LevelStyle.tres" id="2_pa6u2"]
+[ext_resource type="Theme" uid="uid://duf2gciy0wwfv" path="res://Resources/UiTheme.tres" id="4_06elq"]
+[ext_resource type="Texture2D" uid="uid://23jre4jgsbpe" path="res://Graphics/Icons/ExclamationMark.png" id="4_muh8d"]
+[ext_resource type="Texture2D" uid="uid://vrbamct55yq7" path="res://Graphics/Icons/Checkmark.png" id="5_cfvpo"]
+[ext_resource type="Texture2D" uid="uid://3cxewxmxre1a" path="res://Graphics/Icons/Trophy.png" id="5_cx52y"]
+
+[node name="LevelButton" type="MarginContainer"]
+modulate = Color(0.411765, 0.411765, 0.411765, 1)
+offset_right = 11.0
+offset_bottom = 47.0
+script = ExtResource("1_olr3w")
+Style = ExtResource("2_pa6u2")
+StatusTextureFinished = ExtResource("5_cfvpo")
+StatusTextureFinishedWithErrors = ExtResource("4_muh8d")
+StatusTextureTrophy = ExtResource("5_cx52y")
+Text = "10"
+
+[node name="NinePatchRect" type="NinePatchRect" parent="."]
+layout_mode = 2
+texture = ExtResource("1_kuyqn")
+patch_margin_left = 4
+patch_margin_top = 4
+patch_margin_right = 4
+patch_margin_bottom = 4
+
+[node name="MarginContainer" type="MarginContainer" parent="."]
+custom_minimum_size = Vector2(50, 50)
+layout_mode = 2
+theme_override_constants/margin_left = 5
+theme_override_constants/margin_top = 5
+theme_override_constants/margin_right = 5
+theme_override_constants/margin_bottom = 5
+
+[node name="LevelNumberLabel" type="Label" parent="MarginContainer"]
+custom_minimum_size = Vector2(50, 50)
+layout_mode = 2
+theme = ExtResource("4_06elq")
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_font_sizes/font_size = 24
+text = "500"
+horizontal_alignment = 1
+vertical_alignment = 1
+clip_text = true
+
+[node name="MarginContainer" type="MarginContainer" parent="MarginContainer"]
+layout_mode = 2
+theme_override_constants/margin_right = 0
+theme_override_constants/margin_bottom = 0
+
+[node name="StatusIcon" type="TextureRect" parent="MarginContainer/MarginContainer"]
+layout_mode = 2
+size_flags_horizontal = 8
+size_flags_vertical = 8
+texture = ExtResource("5_cfvpo")
+stretch_mode = 2
+
+[connection signal="gui_input" from="." to="." method="_on_gui_input"]
+[connection signal="mouse_entered" from="." to="." method="_on_mouse_entered"]
+[connection signal="mouse_exited" from="." to="." method="_on_mouse_exited"]

@@ -1,0 +1,48 @@
+id;name;x;y;z;sprite;name:cs
+S16;Germany;979.5;497;0;Data/EU/Countries/Graphics/Countries_Germany.png;Německo
+S50;United Kingdom;533;611.5;0;Data/EU/Countries/Graphics/Countries_UnitedKingdom.png;Velká Británie
+S15;France;760;362.5;0;Data/EU/Countries/Graphics/Countries_France.png;Francie
+S24;Italy;1037;228.5;0;Data/EU/Countries/Graphics/Countries_Italy.png;Itálie
+S41;Russia;1574;636;0;Data/EU/Countries/Graphics/Countries_Russia.png;Rusko
+S46;Spain;627.5;179;0;Data/EU/Countries/Graphics/Countries_Spain.png;Španělsko
+S35;Netherlands;839;524;0;Data/EU/Countries/Graphics/Countries_Netherlands.png;Nizozemsko
+S48;Switzerland;919;378.5;0;Data/EU/Countries/Graphics/Countries_Switzerland.png;Švýcarsko
+S52;Turkey;1654;165;0;Data/EU/Countries/Graphics/Countries_Turkey.png;Turecko
+S38;Poland;1216;517.5;0;Data/EU/Countries/Graphics/Countries_Poland.png;Polsko
+S47;Sweden;1175.5;797;0;Data/EU/Countries/Graphics/Countries_Sweden.png;Švédsko
+S6;Belgium;816;479;0;Data/EU/Countries/Graphics/Countries_Belgium.png;Belgie
+S4;Austria;1058;402.5;0;Data/EU/Countries/Graphics/Countries_Austria.png;Rakousko
+S22;Ireland;470.5;558.5;0;Data/EU/Countries/Graphics/Countries_Ireland.png;Irsko
+S37;Norway;994;862.5;0;Data/EU/Countries/Graphics/Countries_Norway.png;Norsko
+S11;Denmark;1011.5;633;0;Data/EU/Countries/Graphics/Countries_Denmark.png;Dánsko
+S14;Finland;1405.5;872;0;Data/EU/Countries/Graphics/Countries_Finland.png;Finsko
+S40;Romania;1375;355.5;0;Data/EU/Countries/Graphics/Countries_Romania.png;Rumunsko
+S10;Czech Republic;1116.5;459.5;0;Data/EU/Countries/Graphics/Countries_Czechia.png;Česká republika
+S39;Portugal;263.5;127.5;0;Data/EU/Countries/Graphics/Countries_Portugal.png;Portugalsko
+S18;Greece;1347;146;0;Data/EU/Countries/Graphics/Countries_Greece.png;Řecko
+S20;Hungary;1225.5;388;0;Data/EU/Countries/Graphics/Countries_Hungary.png;Maďarsko
+S49;Ukraine;1543;421;0;Data/EU/Countries/Graphics/Countries_Ukraine.png;Ukrajina
+S44;Slovakia;1231;429;0;Data/EU/Countries/Graphics/Countries_Slovakia.png;Slovensko
+S30;Luxembourg;861.5;460;0;Data/EU/Countries/Graphics/Countries_Luxembourg.png;Lucembursko
+S8;Bulgaria;1388.5;267.5;0;Data/EU/Countries/Graphics/Countries_Bulgaria.png;Bulharsko
+S5;Belarus;1456;566;0;Data/EU/Countries/Graphics/Countries_Belarus.png;Bělorusko
+S9;Croatia;1143;315;0;Data/EU/Countries/Graphics/Countries_Croatia.png;Chorvatsko
+S29;Lithuania;1344.5;605.5;0;Data/EU/Countries/Graphics/Countries_Lithuania.png;Litva
+S43;Serbia;1264.5;307.5;0;Data/EU/Countries/Graphics/Countries_Serbia.png;Srbsko
+S45;Slovenia;1101.5;360.5;0;Data/EU/Countries/Graphics/Countries_Slovenia.png;Slovinsko
+S27;Latvia;1364.5;652.5;0;Data/EU/Countries/Graphics/Countries_Latvia.png;Lotyšsko
+S12;Estonia;1376;699;0;Data/EU/Countries/Graphics/Countries_Estonia.png;Estonsko
+S53;Cyprus;1605;61;0;Data/EU/Countries/Graphics/Countries_Cyprus.png;Kypr
+S21;Iceland;177.5;873;0;Data/EU/Countries/Graphics/Countries_Iceland.png;Island
+S7;Bosnia and Herzegovina;1176;299.5;0;Data/EU/Countries/Graphics/Countries_BosniaAndHerzegovina.png;Bosna a Hercegovina
+S2;Albania;1243.5;224;0;Data/EU/Countries/Graphics/Countries_Albania.png;Albánie
+S31;Malta;1086.5;82.5;0;Data/EU/Countries/Graphics/Countries_Malta.png;Malta
+S32;Moldova;1467.5;383;0;Data/EU/Countries/Graphics/Countries_Moldova.png;Moldavsko
+S26;Kosovo;1264;262.5;0;Data/EU/Countries/Graphics/Countries_Kosovo.png;Kosovo
+S34;Montenegro;1223;266.5;0;Data/EU/Countries/Graphics/Countries_Montenegro.png;Černá Hora
+S36;North Macedonia;1286.5;236.5;0;Data/EU/Countries/Graphics/Countries_NorthMacedonia.png;Severní Makedonie
+S3;Andorra;738;262;10;Graphics/Icons/CityState.png;Andorra
+S28;Liechtenstein;954.5;387.5;10;Graphics/Icons/CityState.png;Lichtenštejnsko
+S33;Monaco;896.5;295;10;Graphics/Icons/CityState.png;Monako
+S42;San Marino;1034;300;10;Graphics/Icons/CityState.png;San Marino
+S51;Vatican;1034;244.5;10;Graphics/Icons/CityState.png;Vatikán

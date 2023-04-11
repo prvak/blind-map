@@ -1,0 +1,14 @@
+[gd_resource type="Resource" script_class="LevelStyleResource" load_steps=2 format=3 uid="uid://dg6hv4y6cteq5"]
+
+[ext_resource type="Script" path="res://Scripts/Resources/LevelStyleResource.gd" id="1_vpvsg"]
+
+[resource]
+script = ExtResource("1_vpvsg")
+NormalColor = Color(0.411765, 0.411765, 0.411765, 1)
+HighlightColor = Color(0.184314, 0.415686, 1, 1)
+SelectedColor = Color(0.184314, 0.415686, 1, 1)
+SuccessColor = Color(0.133333, 0.545098, 0.133333, 1)
+FailureColor = Color(0.803922, 0.360784, 0.360784, 1)
+GoldTrophyColor = Color(0.996078, 0.788235, 0, 1)
+SilverTrophyColor = Color(0.6, 0.74902, 0.835294, 1)
+BronzeTrophyColor = Color(0.54902, 0.360784, 0.231373, 1)

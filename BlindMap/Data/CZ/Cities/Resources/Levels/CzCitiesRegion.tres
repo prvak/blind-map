@@ -1,0 +1,12 @@
+[gd_resource type="Resource" script_class="LevelSequenceResource" load_steps=3 format=3 uid="uid://biegyoh2rfvrt"]
+
+[ext_resource type="Resource" uid="uid://op3npg8f101d" path="res://Data/CZ/Cities/Resources/CzCities.tres" id="1_ddtai"]
+[ext_resource type="Script" path="res://Scripts/Resources/LevelSequenceResource.gd" id="1_klayn"]
+
+[resource]
+script = ExtResource("1_klayn")
+Id = "region"
+DataSet = ExtResource("1_ddtai")
+Filter = "region"
+Name = "Regional capitals"
+Levels = ["L:1-13", "T:1-13"]

@@ -1,0 +1,16 @@
+id;name;x;y;sprite
+R1;Krkonoše;1000;910;Data/CZ/Ranges/Graphics/Ranges_Krkonose.png
+R2;Šumava;410;170;Data/CZ/Ranges/Graphics/Ranges_Sumava.png
+R3;Krušné hory;350;905;Data/CZ/Ranges/Graphics/Ranges_KrusneHory.png
+R4;Moravskoslezské Beskydy;1763;424;Data/CZ/Ranges/Graphics/Ranges_MoravskoslezskeBeskydy.png
+R5;Českomoravská vrchovina;956;475;Data/CZ/Ranges/Graphics/Ranges_CeskomoravskaVrchovina.png
+R6;Jeseníky;1434;670;Data/CZ/Ranges/Graphics/Ranges_Jeseniky.png
+R7;Český les;200;480;Data/CZ/Ranges/Graphics/Ranges_CeskyLes.png
+R8;Jizerské hory;835;960;Data/CZ/Ranges/Graphics/Ranges_JizerskeHory.png
+R9;Orlické hory;1195;710;Data/CZ/Ranges/Graphics/Ranges_OrlickeHory.png
+R10;Novohradské hory;743;130;Data/CZ/Ranges/Graphics/Ranges_NovohradskeHory.png
+R11;České středohoří;580;870;Data/CZ/Ranges/Graphics/Ranges_CeskeStredohori.png
+R12;Bílé Karpaty;1607;185;Data/CZ/Ranges/Graphics/Ranges_BileKarpaty.png
+R13;Lužické hory;700;1010;Data/CZ/Ranges/Graphics/Ranges_LuzickeHory.png
+R14;Brdy;520;580;Data/CZ/Ranges/Graphics/Ranges_Brdy.png
+

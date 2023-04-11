@@ -1,0 +1,44 @@
+[gd_scene load_steps=5 format=3 uid="uid://c2cssaufgdp4h"]
+
+[ext_resource type="PackedScene" uid="uid://cbk3gsenc1i3b" path="res://Scenes/Level.tscn" id="1_bvut5"]
+[ext_resource type="Script" path="res://Scripts/Scenes/Main.gd" id="1_vqss2"]
+[ext_resource type="PackedScene" uid="uid://crtcb644caqq3" path="res://Scenes/MainMenu.tscn" id="3_ksbav"]
+[ext_resource type="PackedScene" uid="uid://f0d1eqgq5pbt" path="res://Scenes/HintOverlay.tscn" id="4_stv3c"]
+
+[node name="Main" type="Control"]
+custom_minimum_size = Vector2(1920, 1080)
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+pivot_offset = Vector2(960, 540)
+mouse_filter = 1
+script = ExtResource("1_vqss2")
+
+[node name="Level" parent="." instance=ExtResource("1_bvut5")]
+custom_minimum_size = Vector2(1920, 1080)
+layout_mode = 2
+anchors_preset = 0
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 0.0
+anchor_bottom = 0.0
+offset_left = 0.0
+offset_top = 0.0
+offset_right = 1920.0
+offset_bottom = 1080.0
+
+[node name="MainMenu" parent="." instance=ExtResource("3_ksbav")]
+custom_minimum_size = Vector2(1920, 1080)
+layout_mode = 2
+anchors_preset = 0
+anchor_right = 0.0
+anchor_bottom = 0.0
+offset_top = 1080.0
+offset_right = 1920.0
+offset_bottom = 2160.0
+grow_vertical = 1
+
+[node name="HintOverlay" parent="." instance=ExtResource("4_stv3c")]

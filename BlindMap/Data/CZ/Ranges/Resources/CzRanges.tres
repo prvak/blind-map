@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="DataSetResource" load_steps=3 format=3 uid="uid://ci25np2ul2tud"]
+
+[ext_resource type="Texture2D" uid="uid://b7edei5ujlyto" path="res://Data/CZ/Map.png" id="1_is2x3"]
+[ext_resource type="Script" path="res://Scripts/Resources/DataSetResource.gd" id="2_sxwp5"]
+
+[resource]
+script = ExtResource("2_sxwp5")
+Id = "cz-ranges"
+MapTexture = ExtResource("1_is2x3")
+SourceFile = "res://Data/CZ/Ranges/Ranges.txt"

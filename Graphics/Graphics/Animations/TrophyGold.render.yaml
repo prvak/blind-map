@@ -1,0 +1,7 @@
+type: animation
+render:
+  width: 400
+  height: 600
+  columns: 3
+  fps: 11
+

@@ -1,0 +1,3 @@
+- Country shapes: https://www.naturalearthdata.com
+- Locations of cities: https://www.wikidata.org
+- Locations of rivers: https://www.openstreetmap.org

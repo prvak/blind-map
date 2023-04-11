@@ -1,0 +1,12 @@
+[gd_resource type="Resource" script_class="LevelSequenceResource" load_steps=3 format=3 uid="uid://dy3ot1hlqg2f5"]
+
+[ext_resource type="Script" path="res://Scripts/Resources/LevelSequenceResource.gd" id="1_donni"]
+[ext_resource type="Resource" uid="uid://c04uwmxdghy82" path="res://Data/CZ/Mountains/Resources/CzMountains.tres" id="1_jnxsj"]
+
+[resource]
+script = ExtResource("1_donni")
+Id = "all"
+DataSet = ExtResource("1_jnxsj")
+Filter = "all"
+Name = "Mountains"
+Levels = ["L:1-15", "T:1-15"]

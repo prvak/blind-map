@@ -1,0 +1,42 @@
+[gd_resource type="Theme" load_steps=7 format=3 uid="uid://duf2gciy0wwfv"]
+
+[ext_resource type="FontFile" uid="uid://cfwvb6lay85vv" path="res://Resources/OpenSans-Semibold.ttf" id="1_lnubk"]
+[ext_resource type="Texture2D" uid="uid://dt38kfwbns0sj" path="res://Graphics/Icons/DropdownArrow.png" id="2_i6x64"]
+[ext_resource type="StyleBox" uid="uid://jnxtpib35vkp" path="res://Resources/StyleBoxHover.tres" id="2_mhctg"]
+[ext_resource type="StyleBox" uid="uid://cvh34sj037r83" path="res://Resources/StyleBoxNormal.tres" id="3_3pep3"]
+[ext_resource type="StyleBox" uid="uid://cjvhxatc5eswf" path="res://Resources/StyleBoxPanel.tres" id="5_dgu3w"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_6ytmk"]
+
+[resource]
+Button/colors/font_color = Color(0.411765, 0.411765, 0.411765, 1)
+Button/colors/font_focus_color = Color(0.411765, 0.411765, 0.411765, 1)
+Button/colors/font_hover_color = Color(0.184314, 0.415686, 1, 1)
+Button/colors/font_pressed_color = Color(0.184314, 0.415686, 1, 1)
+Button/colors/icon_focus_color = Color(0.411765, 0.411765, 0.411765, 1)
+Button/colors/icon_hover_color = Color(0.184314, 0.415686, 1, 1)
+Button/colors/icon_normal_color = Color(0.411765, 0.411765, 0.411765, 1)
+Button/colors/icon_pressed_color = Color(0.184314, 0.415686, 1, 1)
+Button/constants/h_separation = 4
+Button/fonts/font = ExtResource("1_lnubk")
+Label/colors/font_color = Color(0.411765, 0.411765, 0.411765, 1)
+Label/fonts/font = ExtResource("1_lnubk")
+OptionButton/colors/icon_focus_color = Color(0.411765, 0.411765, 0.411765, 1)
+OptionButton/colors/icon_hover_color = Color(0.184314, 0.415686, 1, 1)
+OptionButton/colors/icon_normal_color = Color(0.411765, 0.411765, 0.411765, 1)
+OptionButton/colors/icon_pressed_color = Color(0.184314, 0.415686, 1, 1)
+OptionButton/constants/arrow_margin = 8
+OptionButton/constants/modulate_arrow = 1
+OptionButton/font_sizes/font_size = 30
+OptionButton/icons/arrow = ExtResource("2_i6x64")
+OptionButton/styles/disabled = ExtResource("3_3pep3")
+OptionButton/styles/focus = ExtResource("2_mhctg")
+OptionButton/styles/hover = ExtResource("2_mhctg")
+OptionButton/styles/normal = ExtResource("3_3pep3")
+OptionButton/styles/pressed = ExtResource("2_mhctg")
+PanelContainer/styles/panel = ExtResource("5_dgu3w")
+PopupMenu/colors/font_color = Color(0.411765, 0.411765, 0.411765, 1)
+PopupMenu/colors/font_hover_color = Color(0.184314, 0.415686, 1, 1)
+PopupMenu/font_sizes/font_size = 30
+PopupMenu/styles/hover = SubResource("StyleBoxEmpty_6ytmk")
+PopupMenu/styles/panel = ExtResource("3_3pep3")

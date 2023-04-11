@@ -1,0 +1,16 @@
+id;name;x;y;sprite;meta:height:float;meta:prominence:float;meta:longitude:float;meta:latitude:float
+M1;Sněžka;1014;942;Graphics/Icons/Mountain.png;1603.3;1197;15.740277777778;50.736111111111
+M2;Praděd;1429;660;Graphics/Icons/Mountain.png;1491.3;983;17.230861111111;50.083194444444
+M3;Králický Sněžník;1322;714;Graphics/Icons/Mountain.png;1423;665;16.846944444444;50.2075
+M4;Plechý;491;94;Graphics/Icons/Mountain.png;1379;508;13.857222222222;48.771111111111
+M5;Lysá hora;1767;428;Graphics/Icons/Mountain.png;1324;768;18.4475;49.545833333333
+M6;Klínovec;243;795;Graphics/Icons/Mountain.png;1243.7;748;12.967777777778;50.396111111111
+M7;Velká Deštná;1197;754;Graphics/Icons/Mountain.png;1116;586;16.397777777778;50.301666666667
+M8;Čerchov;192;358;Graphics/Icons/Mountain.png;1042;527;12.7840181;49.3831917
+M9;Ještěd;804;940;Graphics/Icons/Mountain.png;1012;517;14.985277777778;50.732222222222
+M10;Suchý vrch;1279;646;Graphics/Icons/Mountain.png;995;435;16.6938;50.0507
+M11;Velká Javořina;1552;141;Graphics/Icons/Mountain.png;970;570.4;17.675833333333;48.857777777778
+M12;Milešovka;511;863;Graphics/Icons/Mountain.png;836.6;620;13.931091111111;50.554905
+M13;Říp;611;791;Graphics/Icons/Mountain.png;461;240;14.289259;50.386455
+M14;Javořice;903;288;Graphics/Icons/Mountain.png;836.5;297;15.339444;49.221111
+M15;Devět skal;1095;482;Graphics/Icons/Mountain.png;836.1;321;16.032222;49.670833

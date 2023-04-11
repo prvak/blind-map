@@ -1,0 +1,59 @@
+[gd_scene load_steps=5 format=3 uid="uid://b5h6rdw1y3vup"]
+
+[ext_resource type="Script" path="res://Scripts/Scenes/Answers.gd" id="1_mq7fl"]
+[ext_resource type="PackedScene" uid="uid://bbvvhqbb4kkrn" path="res://Scenes/AnswerItem.tscn" id="1_swh86"]
+[ext_resource type="Theme" uid="uid://duf2gciy0wwfv" path="res://Resources/UiTheme.tres" id="3_ijgac"]
+[ext_resource type="Script" path="res://Scripts/Scenes/Placeholder.gd" id="4_2wqxt"]
+
+[node name="Answers" type="Control"]
+custom_minimum_size = Vector2(0, 72)
+layout_mode = 3
+anchors_preset = 10
+anchor_right = 1.0
+grow_horizontal = 2
+script = ExtResource("1_mq7fl")
+AnswerItemScene = ExtResource("1_swh86")
+
+[node name="HBoxContainer" type="HBoxContainer" parent="."]
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -88.0
+offset_right = 88.0
+offset_bottom = 72.0
+grow_horizontal = 2
+
+[node name="Items" type="HBoxContainer" parent="HBoxContainer"]
+layout_mode = 2
+
+[node name="AnswerItem" parent="HBoxContainer/Items" instance=ExtResource("1_swh86")]
+layout_mode = 2
+size_flags_horizontal = 4
+
+[node name="AnswerItem2" parent="HBoxContainer/Items" instance=ExtResource("1_swh86")]
+layout_mode = 2
+size_flags_horizontal = 4
+
+[node name="MarginContainer" type="MarginContainer" parent="HBoxContainer"]
+layout_mode = 2
+theme_override_constants/margin_top = 2
+
+[node name="ExtraAnswersLabel" type="Label" parent="HBoxContainer/MarginContainer"]
+layout_mode = 2
+theme = ExtResource("3_ijgac")
+theme_override_font_sizes/font_size = 30
+text = "+6"
+vertical_alignment = 1
+
+[node name="Utils" type="Control" parent="."]
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="Placeholder" type="MarginContainer" parent="Utils"]
+modulate = Color(0, 0, 0, 1)
+layout_mode = 2
+offset_left = 931.5
+offset_right = 931.5
+script = ExtResource("4_2wqxt")

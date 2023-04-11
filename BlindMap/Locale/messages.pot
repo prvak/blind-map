@@ -1,0 +1,63 @@
+msgid ""
+msgstr ""
+
+msgid "Regional capitals"
+msgstr ""
+
+msgid "Former district capitals"
+msgstr ""
+
+msgid "Cities"
+msgstr ""
+
+msgid "Cities by population"
+msgstr ""
+
+msgid "Mountains"
+msgstr ""
+
+msgid "Rivers"
+msgstr ""
+
+msgid "Mountain ranges"
+msgstr ""
+
+msgid "Countries"
+msgstr ""
+
+msgid "Europe"
+msgstr ""
+
+msgid "Czech Republic"
+msgstr ""
+
+msgid "Great Britain"
+msgstr ""
+
+msgid "Home"
+msgstr ""
+
+msgid "Try again"
+msgstr ""
+
+msgid "Next level"
+msgstr ""
+
+msgid "Goal of each level is to find all places listed here."
+msgstr ""
+
+msgid "Start by clicking on a level number."
+msgstr ""
+
+msgid "You finished the level. Each level adds one new place to the map."
+msgstr ""
+
+msgid "Ok"
+msgstr ""
+
+msgid "Disable hints"
+msgstr ""
+
+msgid "Success rate:"
+msgstr ""
+

@@ -1,0 +1,238 @@
+[gd_scene load_steps=16 format=3 uid="uid://cbk3gsenc1i3b"]
+
+[ext_resource type="PackedScene" uid="uid://cmyh15nvfqsbl" path="res://Scenes/Map.tscn" id="1_ey260"]
+[ext_resource type="Script" path="res://Scripts/Scenes/Level.gd" id="1_fcayt"]
+[ext_resource type="PackedScene" uid="uid://b5h6rdw1y3vup" path="res://Scenes/Answers.tscn" id="2_l30iu"]
+[ext_resource type="Theme" uid="uid://duf2gciy0wwfv" path="res://Resources/UiTheme.tres" id="2_ot84r"]
+[ext_resource type="Texture2D" uid="uid://c0ncfqae3wbu6" path="res://Graphics/Icons/ArrowUp.png" id="3_4vyxg"]
+[ext_resource type="Texture2D" uid="uid://wxugtwd1gfqa" path="res://Graphics/Animations/TrophySilver.png" id="3_ql3jt"]
+[ext_resource type="Texture2D" uid="uid://bd8tpisa0gisl" path="res://Graphics/Animations/TrophyBronze.png" id="4_jbs7h"]
+[ext_resource type="Resource" uid="uid://dg6hv4y6cteq5" path="res://Resources/LevelStyle.tres" id="5_ntuco"]
+[ext_resource type="Texture2D" uid="uid://dhncoumhtv8v8" path="res://Graphics/Animations/TrophyGold.png" id="6_iwis0"]
+[ext_resource type="PackedScene" uid="uid://chje7aukkghdi" path="res://Scenes/IconAndTextButton.tscn" id="7_icf2y"]
+[ext_resource type="Texture2D" uid="uid://bh7p6i8cwyo6q" path="res://Graphics/Icons/ArrowRight.png" id="8_4xlmr"]
+[ext_resource type="Texture2D" uid="uid://bk7eaknigkje0" path="res://Graphics/Icons/ArrowDown.png" id="8_6f3fb"]
+
+[sub_resource type="Animation" id="Animation_ymy3n"]
+resource_name = "Glint"
+length = 0.6
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("TrophyIconContainer/Node2D/TrophySprite:frame")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.1, 0.2, 0.3, 0.4, 0.5),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1),
+"update": 1,
+"values": [0, 1, 2, 3, 4, 5]
+}
+
+[sub_resource type="Animation" id="Animation_xsuop"]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("TrophyIconContainer/Node2D/TrophySprite:frame")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [0]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_6oyov"]
+_data = {
+"Glint": SubResource("Animation_ymy3n"),
+"RESET": SubResource("Animation_xsuop")
+}
+
+[node name="Level" type="Control"]
+layout_mode = 3
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -960.0
+offset_top = -540.0
+offset_right = 960.0
+offset_bottom = 540.0
+grow_horizontal = 2
+grow_vertical = 2
+pivot_offset = Vector2(960, 540)
+mouse_filter = 1
+script = ExtResource("1_fcayt")
+GoldTrophyTexture = ExtResource("6_iwis0")
+SilverTrophyTexture = ExtResource("3_ql3jt")
+BronzeTrophyTexture = ExtResource("4_jbs7h")
+LevelStyle = ExtResource("5_ntuco")
+
+[node name="MarginContainer" type="MarginContainer" parent="."]
+layout_mode = 1
+anchors_preset = 10
+anchor_right = 1.0
+offset_bottom = 96.0
+grow_horizontal = 2
+theme_override_constants/margin_left = 10
+theme_override_constants/margin_top = 5
+theme_override_constants/margin_right = 10
+theme_override_constants/margin_bottom = 5
+
+[node name="Navigation" type="HBoxContainer" parent="MarginContainer"]
+layout_mode = 2
+alignment = 1
+
+[node name="MarginContainer" type="MarginContainer" parent="MarginContainer/Navigation"]
+custom_minimum_size = Vector2(200, 0)
+layout_mode = 2
+
+[node name="HomeButton" type="Button" parent="MarginContainer/Navigation/MarginContainer"]
+layout_mode = 2
+size_flags_vertical = 4
+focus_mode = 0
+theme = ExtResource("2_ot84r")
+icon = ExtResource("3_4vyxg")
+flat = true
+
+[node name="Answers" parent="MarginContainer/Navigation" instance=ExtResource("2_l30iu")]
+layout_mode = 2
+size_flags_horizontal = 3
+
+[node name="LevelLabel" type="Label" parent="MarginContainer/Navigation"]
+custom_minimum_size = Vector2(200, 72)
+layout_mode = 2
+theme = ExtResource("2_ot84r")
+theme_override_font_sizes/font_size = 60
+text = "1-10"
+horizontal_alignment = 2
+vertical_alignment = 1
+
+[node name="Map" parent="." instance=ExtResource("1_ey260")]
+layout_mode = 1
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+offset_left = -960.0
+offset_top = -1045.0
+offset_right = 960.0
+offset_bottom = 35.0
+grow_vertical = 0
+scale = Vector2(0.9, 0.9)
+size_flags_vertical = 3
+
+[node name="TrophyAnimationPlayer" type="AnimationPlayer" parent="."]
+unique_name_in_owner = true
+root_node = NodePath("../TrophySceneContainer/CenterContainer/VBoxContainer")
+speed_scale = 3.0
+libraries = {
+"": SubResource("AnimationLibrary_6oyov")
+}
+
+[node name="TrophySceneContainer" type="MarginContainer" parent="."]
+unique_name_in_owner = true
+visible = false
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+pivot_offset = Vector2(960, 540)
+
+[node name="TrophyPanel" type="Panel" parent="TrophySceneContainer"]
+unique_name_in_owner = true
+layout_mode = 2
+
+[node name="CenterContainer" type="CenterContainer" parent="TrophySceneContainer"]
+layout_mode = 2
+
+[node name="VBoxContainer" type="VBoxContainer" parent="TrophySceneContainer/CenterContainer"]
+layout_mode = 2
+
+[node name="TrophyIconContainer" type="CenterContainer" parent="TrophySceneContainer/CenterContainer/VBoxContainer"]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(400, 500)
+layout_mode = 2
+size_flags_horizontal = 4
+
+[node name="Node2D" type="Node2D" parent="TrophySceneContainer/CenterContainer/VBoxContainer/TrophyIconContainer"]
+position = Vector2(200, 250)
+
+[node name="TrophySprite" type="Sprite2D" parent="TrophySceneContainer/CenterContainer/VBoxContainer/TrophyIconContainer/Node2D"]
+unique_name_in_owner = true
+texture = ExtResource("6_iwis0")
+hframes = 3
+vframes = 2
+
+[node name="TrophyButtonsContainer" type="MarginContainer" parent="TrophySceneContainer/CenterContainer/VBoxContainer"]
+unique_name_in_owner = true
+layout_mode = 2
+theme_override_constants/margin_left = 8
+
+[node name="TrophyButtonsPanel" type="PanelContainer" parent="TrophySceneContainer/CenterContainer/VBoxContainer/TrophyButtonsContainer"]
+custom_minimum_size = Vector2(0, 50)
+layout_mode = 2
+size_flags_vertical = 3
+mouse_filter = 1
+theme = ExtResource("2_ot84r")
+
+[node name="VBoxContainer" type="VBoxContainer" parent="TrophySceneContainer/CenterContainer/VBoxContainer/TrophyButtonsContainer/TrophyButtonsPanel"]
+layout_mode = 2
+theme_override_constants/separation = 15
+
+[node name="SuccessRateContainer" type="MarginContainer" parent="TrophySceneContainer/CenterContainer/VBoxContainer/TrophyButtonsContainer/TrophyButtonsPanel/VBoxContainer"]
+layout_mode = 2
+
+[node name="HBoxContainer" type="HBoxContainer" parent="TrophySceneContainer/CenterContainer/VBoxContainer/TrophyButtonsContainer/TrophyButtonsPanel/VBoxContainer/SuccessRateContainer"]
+layout_mode = 2
+
+[node name="SuccessRateLabel" type="Label" parent="TrophySceneContainer/CenterContainer/VBoxContainer/TrophyButtonsContainer/TrophyButtonsPanel/VBoxContainer/SuccessRateContainer/HBoxContainer"]
+layout_mode = 2
+size_flags_horizontal = 10
+theme = ExtResource("2_ot84r")
+theme_override_font_sizes/font_size = 24
+text = "Success rate:"
+
+[node name="PercentsLabel" type="Label" parent="TrophySceneContainer/CenterContainer/VBoxContainer/TrophyButtonsContainer/TrophyButtonsPanel/VBoxContainer/SuccessRateContainer/HBoxContainer"]
+unique_name_in_owner = true
+layout_mode = 2
+size_flags_horizontal = 2
+auto_translate = false
+localize_numeral_system = false
+theme = ExtResource("2_ot84r")
+theme_override_font_sizes/font_size = 24
+text = "100%"
+
+[node name="ButtonsContainer" type="MarginContainer" parent="TrophySceneContainer/CenterContainer/VBoxContainer/TrophyButtonsContainer/TrophyButtonsPanel/VBoxContainer"]
+layout_mode = 2
+theme_override_constants/margin_top = 5
+
+[node name="HBoxContainer" type="HBoxContainer" parent="TrophySceneContainer/CenterContainer/VBoxContainer/TrophyButtonsContainer/TrophyButtonsPanel/VBoxContainer/ButtonsContainer"]
+layout_mode = 2
+theme_override_constants/separation = 10
+
+[node name="HomeButton" parent="TrophySceneContainer/CenterContainer/VBoxContainer/TrophyButtonsContainer/TrophyButtonsPanel/VBoxContainer/ButtonsContainer/HBoxContainer" instance=ExtResource("7_icf2y")]
+layout_mode = 2
+size_flags_horizontal = 3
+
+[node name="ReplayButton" parent="TrophySceneContainer/CenterContainer/VBoxContainer/TrophyButtonsContainer/TrophyButtonsPanel/VBoxContainer/ButtonsContainer/HBoxContainer" instance=ExtResource("7_icf2y")]
+layout_mode = 2
+size_flags_horizontal = 3
+Icon = ExtResource("8_6f3fb")
+Text = "Try again"
+
+[node name="NextLevelButton" parent="TrophySceneContainer/CenterContainer/VBoxContainer/TrophyButtonsContainer/TrophyButtonsPanel/VBoxContainer/ButtonsContainer/HBoxContainer" instance=ExtResource("7_icf2y")]
+layout_mode = 2
+size_flags_horizontal = 3
+Icon = ExtResource("8_4xlmr")
+Text = "Next level"
+
+[connection signal="pressed" from="MarginContainer/Navigation/MarginContainer/HomeButton" to="." method="_on_home_button_pressed"]
+[connection signal="button_clicked" from="TrophySceneContainer/CenterContainer/VBoxContainer/TrophyButtonsContainer/TrophyButtonsPanel/VBoxContainer/ButtonsContainer/HBoxContainer/HomeButton" to="." method="_on_home_button_pressed"]
+[connection signal="button_clicked" from="TrophySceneContainer/CenterContainer/VBoxContainer/TrophyButtonsContainer/TrophyButtonsPanel/VBoxContainer/ButtonsContainer/HBoxContainer/ReplayButton" to="." method="_on_replay_button_button_clicked"]
+[connection signal="button_clicked" from="TrophySceneContainer/CenterContainer/VBoxContainer/TrophyButtonsContainer/TrophyButtonsPanel/VBoxContainer/ButtonsContainer/HBoxContainer/NextLevelButton" to="." method="_on_next_level_button_button_clicked"]

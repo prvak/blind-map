@@ -1,0 +1,12 @@
+[gd_resource type="Resource" script_class="LevelSequenceResource" load_steps=3 format=3 uid="uid://bysmlqj7ru08h"]
+
+[ext_resource type="Resource" uid="uid://ci25np2ul2tud" path="res://Data/CZ/Ranges/Resources/CzRanges.tres" id="1_w3lyv"]
+[ext_resource type="Script" path="res://Scripts/Resources/LevelSequenceResource.gd" id="2_uqxng"]
+
+[resource]
+script = ExtResource("2_uqxng")
+Id = "all"
+DataSet = ExtResource("1_w3lyv")
+Filter = "all"
+Name = "Mountain ranges"
+Levels = ["L:1-14", "T:1-14"]

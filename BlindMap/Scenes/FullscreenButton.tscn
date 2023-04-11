@@ -1,0 +1,17 @@
+[gd_scene load_steps=5 format=3 uid="uid://dndvv4t5biyf"]
+
+[ext_resource type="Texture2D" uid="uid://cilg858y75eml" path="res://Graphics/Icons/Fullscreen.png" id="1_3pxka"]
+[ext_resource type="Theme" uid="uid://duf2gciy0wwfv" path="res://Resources/UiTheme.tres" id="1_voy0q"]
+[ext_resource type="Script" path="res://Scripts/Scenes/FullscreenButton.gd" id="2_ejmvw"]
+[ext_resource type="Texture2D" uid="uid://dvgbrhu5mnnj1" path="res://Graphics/Icons/Windowed.png" id="4_8iw18"]
+
+[node name="FullscreenButton" type="Button"]
+focus_mode = 0
+theme = ExtResource("1_voy0q")
+icon = ExtResource("1_3pxka")
+flat = true
+script = ExtResource("2_ejmvw")
+FullscreenSprite = ExtResource("1_3pxka")
+WindowedSprite = ExtResource("4_8iw18")
+
+[connection signal="pressed" from="." to="." method="_on_pressed"]

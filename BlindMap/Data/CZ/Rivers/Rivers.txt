@@ -1,0 +1,23 @@
+id;name;x;y;sprite
+W2;Labe;806;819;Data/CZ/Rivers/Graphics/Rivers_Labe.png
+W3;Morava;1415;373;Data/CZ/Rivers/Graphics/Rivers_Morava.png
+W1;Vltava;585;400;Data/CZ/Rivers/Graphics/Rivers_Vltava.png
+W4;Ohře;311;763;Data/CZ/Rivers/Graphics/Rivers_Ohre.png
+W5;Dyje;1178;97;Data/CZ/Rivers/Graphics/Rivers_Dyje.png
+W7;Svratka;1192;329;Data/CZ/Rivers/Graphics/Rivers_Svratka.png
+W6;Jihlava;1088;268;Data/CZ/Rivers/Graphics/Rivers_Jihlava.png
+W8;Jizera;837;854;Data/CZ/Rivers/Graphics/Rivers_Jizera.png
+W9;Lužnice;728;242;Data/CZ/Rivers/Graphics/Rivers_Luznice.png
+W10;Sázava;867;507;Data/CZ/Rivers/Graphics/Rivers_Sazava.png
+W11;Berounka;507;584;Data/CZ/Rivers/Graphics/Rivers_Berounka.png
+W12;Odra;1639;549;Data/CZ/Rivers/Graphics/Rivers_Odra.png
+W13;Otava;488;311;Data/CZ/Rivers/Graphics/Rivers_Otava.png
+W14;Opava;1594;621;Data/CZ/Rivers/Graphics/Rivers_Opava.png
+W15;Radbuza;268;472;Data/CZ/Rivers/Graphics/Rivers_Radbuza.png
+W16;Chrudimka;1046;579;Data/CZ/Rivers/Graphics/Rivers_Chrudimka.png
+W17;Úhlava;336;394;Data/CZ/Rivers/Graphics/Rivers_Uhlava.png
+W18;Želivka;868;465;Data/CZ/Rivers/Graphics/Rivers_Zelivka.png
+W19;Mže;245;546;Data/CZ/Rivers/Graphics/Rivers_Mze.png
+W20;Orlice;1072;698;Data/CZ/Rivers/Graphics/Rivers_Orlice.png
+W21;Tichá Orlice;1208;647;Data/CZ/Rivers/Graphics/Rivers_TichaOrlice.png
+W22;Divoká Orlice;1176;715;Data/CZ/Rivers/Graphics/Rivers_DivokaOrlice.png

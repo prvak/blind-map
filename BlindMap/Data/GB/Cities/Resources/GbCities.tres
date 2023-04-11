@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="DataSetResource" load_steps=3 format=3 uid="uid://biw0e87ecated"]
+
+[ext_resource type="Script" path="res://Scripts/Resources/DataSetResource.gd" id="1_mv2ex"]
+[ext_resource type="Texture2D" uid="uid://rualwhor81dm" path="res://Data/GB/Map.png" id="1_tjto5"]
+
+[resource]
+script = ExtResource("1_mv2ex")
+Id = "gb-cities"
+MapTexture = ExtResource("1_tjto5")
+SourceFile = "res://Data/GB/Cities/Cities.txt"

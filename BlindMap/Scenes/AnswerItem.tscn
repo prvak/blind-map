@@ -1,0 +1,63 @@
+[gd_scene load_steps=6 format=3 uid="uid://bbvvhqbb4kkrn"]
+
+[ext_resource type="Texture2D" uid="uid://d3cceygh2xeu3" path="res://Graphics/UI/Button.png" id="1_eslfu"]
+[ext_resource type="Script" path="res://Scripts/Scenes/AnswerItem.gd" id="1_m7606"]
+[ext_resource type="Resource" uid="uid://dg6hv4y6cteq5" path="res://Resources/LevelStyle.tres" id="2_qgu5x"]
+[ext_resource type="Theme" uid="uid://duf2gciy0wwfv" path="res://Resources/UiTheme.tres" id="4_7jiyp"]
+[ext_resource type="Texture2D" uid="uid://bbxs050rdic2j" path="res://Graphics/Icons/SelectionIndicator.png" id="5_repes"]
+
+[node name="AnswerItem" type="MarginContainer"]
+offset_right = 56.0
+offset_bottom = 26.0
+script = ExtResource("1_m7606")
+Style = ExtResource("2_qgu5x")
+
+[node name="VBoxContainer" type="VBoxContainer" parent="."]
+layout_mode = 2
+theme_override_constants/separation = 3
+
+[node name="MarginContainer" type="MarginContainer" parent="VBoxContainer"]
+layout_mode = 2
+
+[node name="Border" type="NinePatchRect" parent="VBoxContainer/MarginContainer"]
+unique_name_in_owner = true
+modulate = Color(0.411765, 0.411765, 0.411765, 1)
+layout_mode = 2
+texture = ExtResource("1_eslfu")
+patch_margin_left = 4
+patch_margin_top = 4
+patch_margin_right = 4
+patch_margin_bottom = 4
+
+[node name="LabelContainer" type="MarginContainer" parent="VBoxContainer/MarginContainer"]
+layout_mode = 2
+theme_override_constants/margin_left = 7
+theme_override_constants/margin_top = 1
+theme_override_constants/margin_right = 7
+theme_override_constants/margin_bottom = 1
+
+[node name="CenterContainer" type="CenterContainer" parent="VBoxContainer/MarginContainer/LabelContainer"]
+layout_mode = 2
+
+[node name="Label" type="Label" parent="VBoxContainer/MarginContainer/LabelContainer/CenterContainer"]
+unique_name_in_owner = true
+modulate = Color(0.411765, 0.411765, 0.411765, 1)
+layout_mode = 2
+theme = ExtResource("4_7jiyp")
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_font_sizes/font_size = 48
+text = "Button"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="SelectionIndicator" type="TextureRect" parent="VBoxContainer"]
+unique_name_in_owner = true
+modulate = Color(0.411765, 0.411765, 0.411765, 1)
+layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+texture = ExtResource("5_repes")
+
+[connection signal="gui_input" from="." to="." method="_on_gui_input"]
+[connection signal="mouse_entered" from="." to="." method="_on_mouse_entered"]
+[connection signal="mouse_exited" from="." to="." method="_on_mouse_exited"]

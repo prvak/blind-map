@@ -1,0 +1,45 @@
+[gd_scene load_steps=6 format=3 uid="uid://dia4s2t7epftm"]
+
+[ext_resource type="Script" path="res://Scripts/Scenes/MapItem.gd" id="1_cxjju"]
+[ext_resource type="Resource" uid="uid://dg6hv4y6cteq5" path="res://Resources/LevelStyle.tres" id="2_q5y6a"]
+[ext_resource type="Texture2D" uid="uid://ci26clrffeo4x" path="res://Graphics/Icons/City.png" id="4_lm2jf"]
+[ext_resource type="Theme" uid="uid://duf2gciy0wwfv" path="res://Resources/UiTheme.tres" id="4_n6h3b"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_lp3ei"]
+
+[node name="MapItem" type="Area2D"]
+monitorable = false
+script = ExtResource("1_cxjju")
+Style = ExtResource("2_q5y6a")
+
+[node name="CollisionShape" type="CollisionShape2D" parent="."]
+shape = SubResource("RectangleShape2D_lp3ei")
+
+[node name="Label" type="Label" parent="."]
+unique_name_in_owner = true
+visible = false
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -56.0
+offset_top = 15.0
+offset_right = 56.0
+offset_bottom = 73.0
+grow_horizontal = 2
+theme = ExtResource("4_n6h3b")
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_colors/font_outline_color = Color(1, 1, 1, 1)
+theme_override_constants/outline_size = 6
+theme_override_font_sizes/font_size = 40
+text = "Aš"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Sprite" type="Sprite2D" parent="."]
+unique_name_in_owner = true
+z_index = -1
+texture = ExtResource("4_lm2jf")
+
+[connection signal="input_event" from="." to="." method="_on_input_event"]
+[connection signal="mouse_entered" from="." to="." method="_on_mouse_entered"]
+[connection signal="mouse_exited" from="." to="." method="_on_mouse_exited"]

@@ -1,0 +1,12 @@
+[gd_resource type="Resource" script_class="LevelSequenceResource" load_steps=3 format=3 uid="uid://clckpsstptn3t"]
+
+[ext_resource type="Script" path="res://Scripts/Resources/LevelSequenceResource.gd" id="1_pmpwb"]
+[ext_resource type="Resource" uid="uid://bwomci3uv8ei8" path="res://Data/CZ/Rivers/Resources/CzRivers.tres" id="1_xf75f"]
+
+[resource]
+script = ExtResource("1_pmpwb")
+Id = "all"
+DataSet = ExtResource("1_xf75f")
+Filter = "all"
+Name = "Rivers"
+Levels = ["L:1-10", "T:1-10", "L:11-22", "T:1-22"]

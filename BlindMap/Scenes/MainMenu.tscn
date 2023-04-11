@@ -1,0 +1,116 @@
+[gd_scene load_steps=11 format=3 uid="uid://crtcb644caqq3"]
+
+[ext_resource type="Script" path="res://Scripts/Scenes/MainMenu.gd" id="1_or2p5"]
+[ext_resource type="PackedScene" uid="uid://bifv7e67pgubu" path="res://Scenes/LevelSetMenu.tscn" id="3_ckurr"]
+[ext_resource type="PackedScene" uid="uid://dndvv4t5biyf" path="res://Scenes/FullscreenButton.tscn" id="3_eydbb"]
+[ext_resource type="PackedScene" uid="uid://befany0i0e1sa" path="res://Scenes/AreaItem.tscn" id="3_osmh3"]
+[ext_resource type="PackedScene" uid="uid://bpv080d78w8ia" path="res://Scenes/LanguageDropDown.tscn" id="4_5i47k"]
+[ext_resource type="Resource" uid="uid://b7y84ygr7wx2k" path="res://Data/EU/EuArea.tres" id="4_k3por"]
+[ext_resource type="Resource" uid="uid://bdse5p0qc7pdu" path="res://Data/CZ/CzArea.tres" id="5_vaxdk"]
+[ext_resource type="Resource" uid="uid://b0huuqqjiqkv6" path="res://Data/GB/GbArea.tres" id="6_6cs6c"]
+[ext_resource type="Theme" uid="uid://duf2gciy0wwfv" path="res://Resources/UiTheme.tres" id="7_663un"]
+[ext_resource type="Texture2D" uid="uid://b7076i4n1gkvs" path="res://Graphics/Icons/Hints.png" id="8_fog4h"]
+
+[node name="MainMenu" type="Control" node_paths=PackedStringArray("LevelSetsHolder", "AreaItemsHolder")]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 1
+script = ExtResource("1_or2p5")
+LevelSetMenuScene = ExtResource("3_ckurr")
+LevelSetsHolder = NodePath("MarginContainer/ScrollContainer/VBoxContainer")
+AreaItemScene = ExtResource("3_osmh3")
+AreaItemsHolder = NodePath("AreaSelection/VBoxContainer/ScrollContainer/CenterContainer/VBoxContainer")
+Areas = Array[Resource("res://Scripts/Resources/AreaResource.gd")]([ExtResource("4_k3por"), ExtResource("5_vaxdk"), ExtResource("6_6cs6c")])
+
+[node name="MarginContainer" type="MarginContainer" parent="."]
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -411.0
+offset_right = 411.0
+offset_bottom = 1080.0
+grow_horizontal = 2
+
+[node name="ScrollContainer" type="ScrollContainer" parent="MarginContainer"]
+layout_mode = 2
+
+[node name="VBoxContainer" type="VBoxContainer" parent="MarginContainer/ScrollContainer"]
+layout_mode = 2
+size_flags_horizontal = 6
+
+[node name="LevelSetMenu" parent="MarginContainer/ScrollContainer/VBoxContainer" instance=ExtResource("3_ckurr")]
+layout_mode = 2
+
+[node name="MarginContainer2" type="MarginContainer" parent="."]
+layout_mode = 1
+anchors_preset = 3
+anchor_left = 1.0
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = -76.0
+offset_top = -76.0
+grow_horizontal = 0
+grow_vertical = 0
+theme_override_constants/margin_right = 15
+theme_override_constants/margin_bottom = 10
+
+[node name="HBoxContainer" type="HBoxContainer" parent="MarginContainer2"]
+layout_mode = 2
+
+[node name="HintsButton" type="MarginContainer" parent="MarginContainer2/HBoxContainer"]
+layout_mode = 2
+
+[node name="HintsButton" type="Button" parent="MarginContainer2/HBoxContainer/HintsButton"]
+layout_mode = 2
+focus_mode = 0
+theme = ExtResource("7_663un")
+icon = ExtResource("8_fog4h")
+flat = true
+icon_alignment = 1
+
+[node name="FullscreenButton" type="MarginContainer" parent="MarginContainer2/HBoxContainer"]
+layout_mode = 2
+
+[node name="FullscreenButton" parent="MarginContainer2/HBoxContainer/FullscreenButton" instance=ExtResource("3_eydbb")]
+layout_mode = 2
+
+[node name="AreaSelection" type="MarginContainer" parent="."]
+layout_mode = 2
+offset_right = 548.0
+offset_bottom = 1080.0
+
+[node name="VBoxContainer" type="VBoxContainer" parent="AreaSelection"]
+custom_minimum_size = Vector2(484, 0)
+layout_mode = 2
+
+[node name="LanguageSelection" type="MarginContainer" parent="AreaSelection/VBoxContainer"]
+layout_mode = 2
+theme_override_constants/margin_left = 32
+theme_override_constants/margin_top = 12
+theme_override_constants/margin_right = 32
+theme_override_constants/margin_bottom = 1
+
+[node name="LanguageDropDown" parent="AreaSelection/VBoxContainer/LanguageSelection" instance=ExtResource("4_5i47k")]
+layout_mode = 2
+
+[node name="ScrollContainer" type="ScrollContainer" parent="AreaSelection/VBoxContainer"]
+layout_mode = 2
+size_flags_vertical = 3
+
+[node name="CenterContainer" type="CenterContainer" parent="AreaSelection/VBoxContainer/ScrollContainer"]
+layout_mode = 2
+size_flags_horizontal = 3
+
+[node name="VBoxContainer" type="VBoxContainer" parent="AreaSelection/VBoxContainer/ScrollContainer/CenterContainer"]
+layout_mode = 2
+
+[node name="AreaItem" parent="AreaSelection/VBoxContainer/ScrollContainer/CenterContainer/VBoxContainer" instance=ExtResource("3_osmh3")]
+layout_mode = 2
+
+[connection signal="pressed" from="MarginContainer2/HBoxContainer/HintsButton/HintsButton" to="." method="_on_hints_button_pressed"]

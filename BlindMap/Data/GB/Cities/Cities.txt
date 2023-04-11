@@ -1,0 +1,41 @@
+id;name;x;y;sprite;meta:population:int;meta:longitude:float;meta:latitude:float
+C1;London;1323;181;Graphics/Icons/City.png;8908081;-0.1275;51.507222222222
+C9;Edinburgh;975;686;Graphics/Icons/City.png;488050;-3.1891666666667;55.953333333333
+C12;Cardiff;976;178;Graphics/Icons/City.png;361469;-3.1791666666667;51.481666666667
+C13;Belfast;663;532;Graphics/Icons/City.png;333871;-5.93;54.596388888889
+C2;Birmingham;1121;292;Graphics/Icons/City.png;1137100;-1.9025;52.48
+C4;Glasgow;854;676;Graphics/Icons/City.png;626410;-4.25;55.861111111111
+C6;Manchester;1084;404;Graphics/Icons/City.png;547627;-2.2333333333333;53.466666666667
+C8;Liverpool;997;397;Graphics/Icons/City.png;513441;-2.9919444444444;53.4075
+C21;Plymouth;867;52;Graphics/Icons/City.png;267918;-4.1422222222222;50.371388888889
+C33;Aberdeen;1099;822;Graphics/Icons/City.png;200680;-2.1;57.15
+C42;Oxford;1195;209;Graphics/Icons/City.png;152000;-1.2577777777778;51.751944444444
+C51;Cambridge;1351;261;Graphics/Icons/City.png;152000;0.1225;52.208056
+C3;Leeds;1161;442;Graphics/Icons/City.png;789194;-1.5491666666667;53.799722222222
+C5;Bristol;1042;175;Graphics/Icons/City.png;567111;-2.5975;51.453611111111
+C7;Sheffield;1170;394;Graphics/Icons/City.png;518090;-1.4702777777778;53.380833333333
+C10;Leicester;1209;309;Graphics/Icons/City.png;464395;-1.1333333333333;52.633333333333
+C11;Coventry;1165;284;Graphics/Icons/City.png;362690;-1.5166666666667;52.416666666667
+C14;Newcastle upon Tyne;1154;576;Graphics/Icons/City.png;300196;-1.6133333333333;54.977777777778
+C15;Bradford;1138;441;Graphics/Icons/City.png;293277;-1.751;53.794
+C16;Nottingham;1207;346;Graphics/Icons/City.png;289301;-1.1491666666667;52.955
+C17;Bolton;1061;417;Graphics/Icons/City.png;285372;-2.4333333333333;53.583333333333
+C18;Brighton and Hove;1320;104;Graphics/Icons/City.png;285300;-0.15277777777778;50.827777777778
+C19;Sunderland;1181;567;Graphics/Icons/City.png;277417;-1.3802777777778;54.9
+C20;Southampton;1178;113;Graphics/Icons/City.png;271173;-1.4044444444444;50.906666666667
+C22;Kingston upon Hull;1300;435;Graphics/Icons/City.png;260200;-0.3325;53.744444444444
+C23;Derby;1170;342;Graphics/Icons/City.png;255394;-1.4766666666667;52.921666666667
+C25;Wolverhampton;1096;303;Graphics/Icons/City.png;250970;-2.125278;52.584167
+C26;Stoke-on-Trent;1089;351;Graphics/Icons/City.png;249008;-2.1833333333333;53
+C27;Portsmouth;1214;101;Graphics/Icons/City.png;248440;-1.0872222222222;50.805833333333
+C28;Swansea;889;193;Graphics/Icons/City.png;245508;-3.95;51.616666666667
+C29;Swindon;1135;187;Graphics/Icons/City.png;222193;-1.7811111111111;51.558333333333
+C30;York;1214;459;Graphics/Icons/City.png;208400;-1.0833333333333;53.95
+C31;Milton Keynes;1250;241;Graphics/Icons/City.png;207057;-0.76666666666667;52.033333333333
+C32;Solihull;1136;284;Graphics/Icons/City.png;206674;-1.772;52.413
+C34;York;1214;459;Graphics/Icons/City.png;198051;-1.0833333333333;53.95
+C35;Norwich;1484;308;Graphics/Icons/City.png;195971;1.2927777777778;52.628611111111
+C36;Peterborough;1310;302;Graphics/Icons/City.png;194000;-0.24305555555556;52.5725
+C37;Bournemouth;1124;92;Graphics/Icons/City.png;187503;-1.88;50.72
+C38;York;1214;459;Graphics/Icons/City.png;181131;-1.0833333333333;53.95
+C39;Warrington;1042;395;Graphics/Icons/City.png;165456;-2.60288;53.38732
