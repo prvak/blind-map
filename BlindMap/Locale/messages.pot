@@ -61,3 +61,6 @@ msgstr ""
 msgid "Success rate:"
 msgstr ""
 
+msgid "Report a bug"
+msgstr ""
+

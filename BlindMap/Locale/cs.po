@@ -69,3 +69,6 @@ msgstr "Vypnout nápovědu"
 
 msgid "Success rate:"
 msgstr "Úspěšnost:"
+
+msgid "Report a bug"
+msgstr "Nahlásit chybu"

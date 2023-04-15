@@ -69,3 +69,6 @@ msgstr "Disable hints"
 
 msgid "Success rate:"
 msgstr "Success rate:"
+
+msgid "Report a bug"
+msgstr "Report a bug"
