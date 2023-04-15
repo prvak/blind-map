@@ -19,7 +19,6 @@ func show_hint(hint_name: String):
 	if _current_hint_name != "":
 		hide_hint(_current_hint_name)
 	if hint_name in _hint_nodes:
-		print("Showing hint: ", hint_name)
 		_current_hint_name = hint_name
 		var hint_node = _hint_nodes[hint_name]
 		modulate.a = 0
@@ -31,7 +30,6 @@ func show_hint(hint_name: String):
 
 func hide_hint(hint_name: String):
 	if hint_name in _hint_nodes:
-		print("Hiding hint: ", hint_name)
 		_current_hint_name = ""
 		var hint_node = _hint_nodes[hint_name]
 		var tween = create_tween()

@@ -11,6 +11,9 @@ var Language: String = ""
 
 enum LevelStatus {INITIAL, FINISHED_WITH_ERRORS, FINISHED, TROPHY_BRONZE, TROPHY_SILVER, TROPHY_GOLD}
 
+var _save_error_reported := false
+var _load_error_reported := false
+
 func _ready():
 	load_data()
 
@@ -28,6 +31,11 @@ func save_data() -> void:
 	var json_string = JSON.stringify(data, "  ")
 	
 	var file = FileAccess.open(GAME_SAVE_FILE, FileAccess.WRITE)
+	if not file:
+		if not _save_error_reported:
+			print("Failed to save game data.")
+			_save_error_reported = true
+		return
 	file.store_string(json_string)
 	file.close()
 
@@ -37,6 +45,11 @@ func load_data() -> void:
 		return
 	
 	var file = FileAccess.open(GAME_SAVE_FILE, FileAccess.READ)
+	if not file:
+		if not _load_error_reported:
+			print("Failed to load game data.")
+			_load_error_reported = true
+		return
 	var json_string = file.get_as_text()
 	file.close()
 	
