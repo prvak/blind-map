@@ -22,8 +22,11 @@ func show_hint(hint_name: String):
 		print("Showing hint: ", hint_name)
 		_current_hint_name = hint_name
 		var hint_node = _hint_nodes[hint_name]
+		modulate.a = 0
 		visible = true
 		hint_node.visible = true
+		var tween = create_tween()
+		tween.tween_property(self, "modulate:a", 1.0, 0.1)
 
 
 func hide_hint(hint_name: String):
@@ -31,8 +34,10 @@ func hide_hint(hint_name: String):
 		print("Hiding hint: ", hint_name)
 		_current_hint_name = ""
 		var hint_node = _hint_nodes[hint_name]
-		visible = false
-		hint_node.visible = false
+		var tween = create_tween()
+		tween.tween_property(self, "modulate:a", 0.0, 0.1)
+		tween.tween_property(self, "visible", false, 0.0)
+		tween.tween_property(hint_node, "visible", false, 0.0)
 
 
 func await_current_hint_closed():
