@@ -13,6 +13,9 @@ The game currently contains following maps:
 - Great Britain (cities)
 
 
-## License
+## Licenses
 
-MIT
+Code: MIT
+
+Assets: CC BY 4.0
+
