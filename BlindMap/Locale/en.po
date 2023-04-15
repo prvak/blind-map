@@ -72,3 +72,18 @@ msgstr "Success rate:"
 
 msgid "Report a bug"
 msgstr "Report a bug"
+
+msgid "Hints"
+msgstr "Hints"
+
+msgid "Toggle fullscreen"
+msgstr "Toggle fullscreen"
+
+msgid "Version"
+msgstr "Version"
+
+msgid "Level number"
+msgstr "Level number"
+
+msgid "Remaining hidden locations"
+msgstr "Remaining hidden locations"

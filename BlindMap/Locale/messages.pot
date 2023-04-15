@@ -64,3 +64,18 @@ msgstr ""
 msgid "Report a bug"
 msgstr ""
 
+msgid "Hints"
+msgstr ""
+
+msgid "Toggle fullscreen"
+msgstr ""
+
+msgid "Version"
+msgstr ""
+
+msgid "Level number"
+msgstr ""
+
+msgid "Remaining hidden locations"
+msgstr ""
+

@@ -72,7 +72,7 @@ layout_mode = 2
 
 [node name="HintsButton" type="Button" parent="MiscMenu/VBoxContainer/Buttons/HintsButton"]
 layout_mode = 2
-tooltip_text = "Help"
+tooltip_text = "Hints"
 focus_mode = 0
 theme = ExtResource("7_663un")
 icon = ExtResource("8_fog4h")
@@ -84,6 +84,7 @@ layout_mode = 2
 
 [node name="FullscreenButton" parent="MiscMenu/VBoxContainer/Buttons/FullscreenButton" instance=ExtResource("3_eydbb")]
 layout_mode = 2
+tooltip_text = "Toggle fullscreen"
 
 [node name="Texts" type="HBoxContainer" parent="MiscMenu/VBoxContainer"]
 layout_mode = 2
@@ -106,6 +107,8 @@ theme_override_constants/margin_right = 5
 [node name="VersionLabel" type="Label" parent="MiscMenu/VBoxContainer/Texts/MarginContainer2"]
 layout_mode = 2
 size_flags_horizontal = 10
+tooltip_text = "Version"
+mouse_filter = 1
 theme = ExtResource("7_663un")
 text = "1.0.0"
 

@@ -72,3 +72,18 @@ msgstr "Úspěšnost:"
 
 msgid "Report a bug"
 msgstr "Nahlásit chybu"
+
+msgid "Hints"
+msgstr "Nápověda"
+
+msgid "Toggle fullscreen"
+msgstr "Přepnout režim celé obrazovky"
+
+msgid "Version"
+msgstr "Verze"
+
+msgid "Level number"
+msgstr "Číslo kola"
+
+msgid "Remaining hidden locations"
+msgstr "Zbývající skrytá místa"

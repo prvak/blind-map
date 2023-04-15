@@ -1,10 +1,11 @@
-[gd_resource type="Theme" load_steps=7 format=3 uid="uid://duf2gciy0wwfv"]
+[gd_resource type="Theme" load_steps=8 format=3 uid="uid://duf2gciy0wwfv"]
 
 [ext_resource type="FontFile" uid="uid://cfwvb6lay85vv" path="res://Resources/OpenSans-Semibold.ttf" id="1_lnubk"]
 [ext_resource type="Texture2D" uid="uid://dt38kfwbns0sj" path="res://Graphics/Icons/DropdownArrow.png" id="2_i6x64"]
 [ext_resource type="StyleBox" uid="uid://jnxtpib35vkp" path="res://Resources/StyleBoxHover.tres" id="2_mhctg"]
 [ext_resource type="StyleBox" uid="uid://cvh34sj037r83" path="res://Resources/StyleBoxNormal.tres" id="3_3pep3"]
 [ext_resource type="StyleBox" uid="uid://cjvhxatc5eswf" path="res://Resources/StyleBoxPanel.tres" id="5_dgu3w"]
+[ext_resource type="StyleBox" uid="uid://c1emvr7rjrmau" path="res://Resources/StyleBoxTooltipPanel.tres" id="6_1dhfa"]
 
 [sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_6ytmk"]
 
@@ -44,3 +45,4 @@ PopupMenu/colors/font_hover_color = Color(0.184314, 0.415686, 1, 1)
 PopupMenu/font_sizes/font_size = 30
 PopupMenu/styles/hover = SubResource("StyleBoxEmpty_6ytmk")
 PopupMenu/styles/panel = ExtResource("3_3pep3")
+TooltipPanel/styles/panel = ExtResource("6_1dhfa")
