@@ -46,39 +46,68 @@ size_flags_horizontal = 6
 [node name="LevelSetMenu" parent="MarginContainer/ScrollContainer/VBoxContainer" instance=ExtResource("3_ckurr")]
 layout_mode = 2
 
-[node name="MarginContainer2" type="MarginContainer" parent="."]
+[node name="MiscMenu" type="MarginContainer" parent="."]
 layout_mode = 1
 anchors_preset = 3
 anchor_left = 1.0
 anchor_top = 1.0
 anchor_right = 1.0
 anchor_bottom = 1.0
-offset_left = -76.0
-offset_top = -76.0
+offset_left = -548.0
+offset_top = -96.0
 grow_horizontal = 0
 grow_vertical = 0
 theme_override_constants/margin_right = 15
 theme_override_constants/margin_bottom = 10
 
-[node name="HBoxContainer" type="HBoxContainer" parent="MarginContainer2"]
+[node name="VBoxContainer" type="VBoxContainer" parent="MiscMenu"]
 layout_mode = 2
 
-[node name="HintsButton" type="MarginContainer" parent="MarginContainer2/HBoxContainer"]
+[node name="Buttons" type="HBoxContainer" parent="MiscMenu/VBoxContainer"]
+layout_mode = 2
+size_flags_horizontal = 8
+
+[node name="HintsButton" type="MarginContainer" parent="MiscMenu/VBoxContainer/Buttons"]
 layout_mode = 2
 
-[node name="HintsButton" type="Button" parent="MarginContainer2/HBoxContainer/HintsButton"]
+[node name="HintsButton" type="Button" parent="MiscMenu/VBoxContainer/Buttons/HintsButton"]
 layout_mode = 2
+tooltip_text = "Help"
 focus_mode = 0
 theme = ExtResource("7_663un")
 icon = ExtResource("8_fog4h")
 flat = true
 icon_alignment = 1
 
-[node name="FullscreenButton" type="MarginContainer" parent="MarginContainer2/HBoxContainer"]
+[node name="FullscreenButton" type="MarginContainer" parent="MiscMenu/VBoxContainer/Buttons"]
 layout_mode = 2
 
-[node name="FullscreenButton" parent="MarginContainer2/HBoxContainer/FullscreenButton" instance=ExtResource("3_eydbb")]
+[node name="FullscreenButton" parent="MiscMenu/VBoxContainer/Buttons/FullscreenButton" instance=ExtResource("3_eydbb")]
 layout_mode = 2
+
+[node name="Texts" type="HBoxContainer" parent="MiscMenu/VBoxContainer"]
+layout_mode = 2
+
+[node name="MarginContainer" type="MarginContainer" parent="MiscMenu/VBoxContainer/Texts"]
+layout_mode = 2
+theme_override_constants/margin_left = 10
+
+[node name="BugReportLink" type="LinkButton" parent="MiscMenu/VBoxContainer/Texts/MarginContainer"]
+layout_mode = 2
+theme = ExtResource("7_663un")
+text = "Report a bug"
+uri = "https://github.com/prvak/blind-map/issues"
+
+[node name="MarginContainer2" type="MarginContainer" parent="MiscMenu/VBoxContainer/Texts"]
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_constants/margin_right = 5
+
+[node name="VersionLabel" type="Label" parent="MiscMenu/VBoxContainer/Texts/MarginContainer2"]
+layout_mode = 2
+size_flags_horizontal = 10
+theme = ExtResource("7_663un")
+text = "1.0.0"
 
 [node name="AreaSelection" type="MarginContainer" parent="."]
 layout_mode = 2
@@ -113,4 +142,4 @@ layout_mode = 2
 [node name="AreaItem" parent="AreaSelection/VBoxContainer/ScrollContainer/CenterContainer/VBoxContainer" instance=ExtResource("3_osmh3")]
 layout_mode = 2
 
-[connection signal="pressed" from="MarginContainer2/HBoxContainer/HintsButton/HintsButton" to="." method="_on_hints_button_pressed"]
+[connection signal="pressed" from="MiscMenu/VBoxContainer/Buttons/HintsButton/HintsButton" to="." method="_on_hints_button_pressed"]
