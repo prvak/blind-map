@@ -25,6 +25,9 @@ msgstr ""
 msgid "Countries"
 msgstr ""
 
+msgid "Selection"
+msgstr ""
+
 msgid "Europe"
 msgstr ""
 
@@ -32,6 +35,9 @@ msgid "Czech Republic"
 msgstr ""
 
 msgid "Great Britain"
+msgstr ""
+
+msgid "Poland"
 msgstr ""
 
 msgid "Home"

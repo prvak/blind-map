@@ -11,6 +11,7 @@ The game currently contains following maps:
 - Europe (countries)
 - Czech Republic (cities, mountains, rivers)
 - Great Britain (cities)
+- Poland (cities)
 
 
 ## Licenses

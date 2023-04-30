@@ -19,4 +19,4 @@ ORDER BY DESC(?population)
 LIMIT 10
 ```
 
-`wd:Q213` is Czech Republic
+In this example the `wd:Q213` is code for Czech Republic. To find specific country code, place cursor behind `wd:` and press ctrl+space and write the name of the country.

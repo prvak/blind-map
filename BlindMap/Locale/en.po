@@ -34,6 +34,9 @@ msgstr "Mountain ranges"
 msgid "Countries"
 msgstr "Countries"
 
+msgid "Selection"
+msgstr "Selection"
+
 msgid "Europe"
 msgstr "Europe"
 
@@ -42,6 +45,9 @@ msgstr "Czech Republic"
 
 msgid "Great Britain"
 msgstr "Great Britain"
+
+msgid "Poland"
+msgstr "Poland"
 
 msgid "Home"
 msgstr "Home"

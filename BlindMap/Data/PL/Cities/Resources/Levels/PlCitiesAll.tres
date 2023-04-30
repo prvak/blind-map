@@ -1,0 +1,12 @@
+[gd_resource type="Resource" script_class="LevelSequenceResource" load_steps=3 format=3 uid="uid://d2i12mnenbsa8"]
+
+[ext_resource type="Resource" uid="uid://d0gm3i4ih5mm0" path="res://Data/PL/Cities/Resources/PlCities.tres" id="1_2qx7t"]
+[ext_resource type="Script" path="res://Scripts/Resources/LevelSequenceResource.gd" id="1_4ha1t"]
+
+[resource]
+script = ExtResource("1_4ha1t")
+Id = "all"
+DataSet = ExtResource("1_2qx7t")
+Filter = "all"
+Name = "Cities"
+Levels = ["L:1-10", "T:1-10", "L:11-20", "T:1-20", "L:21-30", "T:1-30"]

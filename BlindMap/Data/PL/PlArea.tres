@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="AreaResource" load_steps=4 format=3 uid="uid://brp4k0tp53i1y"]
+
+[ext_resource type="Resource" uid="uid://d2i12mnenbsa8" path="res://Data/PL/Cities/Resources/Levels/PlCitiesAll.tres" id="1_i7m5h"]
+[ext_resource type="Script" path="res://Scripts/Resources/AreaResource.gd" id="1_mtjxw"]
+[ext_resource type="Texture2D" uid="uid://basu2s8puuapy" path="res://Data/PL/MiniMap.png" id="1_sl7at"]
+
+[resource]
+script = ExtResource("1_mtjxw")
+Id = "pl"
+Name = "Poland"
+LanguagePriorities = {
+"cs": 50.0,
+"de": 50,
+"en": 50.0,
+"pl": 100.0
+}
+MiniMapTexture = ExtResource("1_sl7at")
+LevelSequences = Array[Resource("res://Scripts/Resources/LevelSequenceResource.gd")]([ExtResource("1_i7m5h")])

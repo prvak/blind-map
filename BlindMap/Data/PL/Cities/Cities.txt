@@ -1,0 +1,38 @@
+id;name;x;y;sprite;meta:population:int;meta:longitude:float;meta:latitude:float;name:cs;name:de;name:en;filter:selection
+C1;Warszawa;1128;616;Graphics/Icons/City.png;1860281;21.011111111111;52.23;Varšava;Warschau;Warsaw;1
+C2;Kraków;1010;240;Graphics/Icons/City.png;800653;19.937222222222;50.061388888889;Krakov;Krakau;Kraków;5
+C3;Wrocław;690;422;Graphics/Icons/City.png;672929;17.0325;51.11;Vratislav;Breslau;Wrocław;12
+C4;Łódź;957;537;Graphics/Icons/City.png;670642;19.454722222222;51.776944444444;Lodž;Lodz;Łódź;8
+C5;Poznań;679;647;Graphics/Icons/City.png;546859;16.933611111111;52.408333333333;Poznaň;Posen;Poznań;13
+C6;Gdańsk;870;984;Graphics/Icons/City.png;486022;18.666666666667;54.35;Gdaňsk;Danzig;Gdańsk;10
+C7;Szczecin;418;823;Graphics/Icons/City.png;396168;14.555277777778;53.424722222222;Štětín;Stettin;Szczecin;14
+C8;Bydgoszcz;797;770;Graphics/Icons/City.png;337666;18;53.116666666667;Bydhošť;Bydgoszcz;Bydgoszcz;0
+C9;Lublin;1299;446;Graphics/Icons/City.png;334681;22.566666666667;51.25;Lublin;Lublin;Lublin;4
+C10;Białystok;1365;770;Graphics/Icons/City.png;294242;23.166666666667;53.116666666667;Bělostok;Bialystok;Białystok;3
+C11;Katowice;907;272;Graphics/Icons/City.png;285711;19;50.25;Katovice;Kattowitz;Katowice;6
+C12;Gdynia;855;1013;Graphics/Icons/City.png;245222;18.53188;54.51889;Gdyně;Gdynia;Gdynia;0
+C13;Częstochowa;920;370;Graphics/Icons/City.png;213107;19.12217;50.80964;Čenstochová;Tschenstochau;Częstochowa;7
+C14;Radom;1144;473;Graphics/Icons/City.png;201601;21.156666666667;51.403611111111;Radom;Radom;Radom;0
+C15;Toruń;863;752;Graphics/Icons/City.png;198273;18.6014;53.0144;Toruň;Thorn;Toruń;9
+C16;Rzeszów;1237;238;Graphics/Icons/City.png;195871;22;50.05;Řešov;Rzeszów;Rzeszów;0
+C18;Kielce;1086;380;Graphics/Icons/City.png;186894;20.631944444444;50.8725;Kielce;Kielce;Kielce;0
+C20;Olsztyn;1071;885;Graphics/Icons/City.png;170225;20.494166666667;53.78;Olštýn;Allenstein;Olsztyn;2
+C21;Bielsko-Biała;912;198;Graphics/Icons/City.png;169089;19.044444444444;49.8225;Bílsko-Bělá;Bielitz-Biala;Bielsko-Biała;0
+C22;Zielona Góra;522;566;Graphics/Icons/City.png;140002;15.505;51.939722222222;Zelená Hora;Zielona Góra;Zielona Góra;0
+C23;Rybnik;852;243;Graphics/Icons/City.png;133772;18.5;50.083333333333;Rybnik;Rybnik;Rybnik;0
+C24;Opole;789;346;Graphics/Icons/City.png;127387;17.925277777778;50.672222222222;Opolí;Oppeln;Opole;11
+C25;Gorzów Wielkopolski;494;703;Graphics/Icons/City.png;119964;15.25;52.733333333333;Gorzów Wielkopolski;Gorzów Wielkopolski;Gorzów Wielkopolski;0
+C26;Elbląg;951;952;Graphics/Icons/City.png;115220;19.4;54.166666666667;Elbląg;Elbląg;Elbląg;0
+C27;Płock;984;672;Graphics/Icons/City.png;114594;19.7;52.55;Płock;Płock;Płock;0
+C28;Tarnów;1126;231;Graphics/Icons/City.png;106259;20.988333333333;50.0125;Tarnów;Tarnów;Tarnów;0
+C29;Koszalin;597;956;Graphics/Icons/City.png;105883;16.181666666667;54.190277777778;Koszalin;Koszalin;Koszalin;0
+C30;Włocławek;912;689;Graphics/Icons/City.png;104705;19.05;52.65;Włocławek;Włocławek;Włocławek;0
+C31;Wałbrzych;608;362;Graphics/Icons/City.png;104401;16.283333333333;50.766666666667;Valbřich;Wałbrzych;Wałbrzych;0
+C32;Kalisz;806;534;Graphics/Icons/City.png;95905;18.083;51.757;Kališ;Kalisz;Kalisz;0
+C33;Legnica;594;439;Graphics/Icons/City.png;94878;16.1619;51.21006;Lehnice;Legnica;Legnica;0
+C34;Grudziądz;880;834;Graphics/Icons/City.png;90890;18.755;53.4875;Grudziądz;Graudenz;Grudziądz;0
+C35;Słupsk;690;1004;Graphics/Icons/City.png;87660;17.033333333333;54.466666666667;Słupsk;Słupsk;Słupsk;0
+C36;Jastrzębie-Zdrój;861;220;Graphics/Icons/City.png;85050;18.583333333333;49.95;Jastrzębie-Zdrój;Jastrzębie-Zdrój;Jastrzębie-Zdrój;0
+C37;Nowy Sącz;1094;164;Graphics/Icons/City.png;81281;20.697222222222;49.623888888889;Nowy Sącz;Nowy Sącz;Nowy Sącz;0
+C38;Jelenia Góra;547;385;Graphics/Icons/City.png;77305;15.733333333333;50.9;Jelení Hora;Hirschberg;Jelenia Góra;0
+C39;Siedlce;1268;608;Graphics/Icons/City.png;76357;22.283333333333;52.183333333333;Siedlce;Siedlce;Siedlce;0

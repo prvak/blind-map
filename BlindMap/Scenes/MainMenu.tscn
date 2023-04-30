@@ -123,9 +123,9 @@ layout_mode = 2
 
 [node name="LanguageSelection" type="MarginContainer" parent="AreaSelection/VBoxContainer"]
 layout_mode = 2
-theme_override_constants/margin_left = 32
+theme_override_constants/margin_left = 28
 theme_override_constants/margin_top = 12
-theme_override_constants/margin_right = 32
+theme_override_constants/margin_right = 36
 theme_override_constants/margin_bottom = 1
 
 [node name="LanguageDropDown" parent="AreaSelection/VBoxContainer/LanguageSelection" instance=ExtResource("4_5i47k")]

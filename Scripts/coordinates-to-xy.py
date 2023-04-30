@@ -43,18 +43,31 @@ if args.file:
     with open(args.file) as f:
         lines = f.readlines()
     if len(lines) > 0:
-        headers = lines[0].split(args.separator)
+        headers = lines[0].strip().split(args.separator)
+        lines = lines[1:]
         lat_column = list(filter(lambda h: args.lat_column in h, headers))[0]
         lon_column = list(filter(lambda h: args.lon_column in h, headers))[0]
         lat_column_index = headers.index(lat_column)
         lon_column_index = headers.index(lon_column)
+        if 'x' not in headers:
+            headers.append('x')
+            lines = [line.strip() + ";0" for line in lines]
+        if 'y' not in headers:
+            headers.append('y')
+            lines = [line.strip() + ";0" for line in lines]
+        x_column_index = headers.index("x")
+        y_column_index = headers.index("y")
+
         a = tuple(float(coord) for coord in args.bottom_left.split(","))
         b = tuple(float(coord) for coord in args.upper_right.split(","))
         c = tuple(int(coord) for coord in args.image_size.split(","))
-        print("x;y")
-        for line in lines[1:]:
+        print(";".join(headers))
+        for line in lines:
+            line = line.strip()
             parts = line.split(args.separator)
             lat = float(parts[lat_column_index])
             lon = float(parts[lon_column_index])
             (x, y) = coordinates_to_xy(lat, lon, a, b, c)
-            print("{};{}".format(int(x), int(y)))
+            parts[x_column_index] = str(int(x))
+            parts[y_column_index] = str(int(y))
+            print(";".join(parts))

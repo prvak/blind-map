@@ -6,13 +6,13 @@ class_name DataSetResource extends Resource
 
 var _records: Array
 
-func get_records(filter: String, filter_value: int = 1) -> Array:
+func get_records(filter: String) -> Array:
 	if _records.size() <= 0:
 		_load_records()
 	if filter == "all":
 		return _records
 		
-	var filtered_records = _records.filter(func(record: Record): return record.Filters[filter] == filter_value)
+	var filtered_records = _records.filter(func(record: Record): return record.Filters[filter] != 0)
 	return filtered_records
 
 

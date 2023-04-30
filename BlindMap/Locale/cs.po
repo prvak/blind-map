@@ -34,6 +34,9 @@ msgstr "Pohoří"
 msgid "Countries"
 msgstr "Státy"
 
+msgid "Selection"
+msgstr "Výběr"
+
 msgid "Europe"
 msgstr "Evropa"
 
@@ -42,6 +45,9 @@ msgstr "Česká republika"
 
 msgid "Great Britain"
 msgstr "Velká Británie"
+
+msgid "Poland"
+msgstr "Polsko"
 
 msgid "Home"
 msgstr "Domů"
