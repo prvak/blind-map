@@ -3,6 +3,7 @@ extends OptionButton
 const LANGUAGES = [
 	["cs", "Czech (Čeština)"],
 	["en", "English"],
+	["de", "German (Deutsch)"],
 ]
 
 

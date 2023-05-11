@@ -1,0 +1,94 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=ASCII\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "Regional capitals"
+msgstr ""
+
+msgid "Former district capitals"
+msgstr ""
+
+msgid "Cities"
+msgstr "Städte"
+
+msgid "Cities by population"
+msgstr "Städte nach der Zahl der Einwohner"
+
+msgid "Mountains"
+msgstr "Berge"
+
+msgid "Rivers"
+msgstr "Flüsse"
+
+msgid "Mountain ranges"
+msgstr "Gebirge"
+
+msgid "Countries"
+msgstr "Staaten"
+
+msgid "Selection"
+msgstr "Selektion"
+
+msgid "Europe"
+msgstr "Europa"
+
+msgid "Czech Republic"
+msgstr "Tschechien"
+
+msgid "Great Britain"
+msgstr "Großbritannien"
+
+msgid "Poland"
+msgstr "Polen"
+
+msgid "Home"
+msgstr "Startseite"
+
+msgid "Try again"
+msgstr "Noch einmal"
+
+msgid "Next level"
+msgstr "Nächster Level"
+
+msgid "Goal of each level is to find all places listed here."
+msgstr "Ziel jedes Levels ist es, alle hier aufgeführten Orte zu finden."
+
+msgid "Start by clicking on a level number."
+msgstr "Klicken Sie auf eine Levelnummer."
+
+msgid "You finished the level. Each level adds one new place to the map."
+msgstr "Du hast das Level beendet. Mit jedem Level wird der Karte ein neuer Ort hinzugefügt."
+
+msgid "Ok"
+msgstr "Ok"
+
+msgid "Disable hints"
+msgstr "Tipps ausschalten"
+
+msgid "Success rate:"
+msgstr "Erfolgsrate:"
+
+msgid "Report a bug"
+msgstr "Fehler melden"
+
+msgid "Hints"
+msgstr "Tipps"
+
+msgid "Toggle fullscreen"
+msgstr "Vollbild umschalten"
+
+msgid "Version"
+msgstr "Version"
+
+msgid "Level number"
+msgstr "Levelnummer"
+
+msgid "Remaining hidden locations"
+msgstr "Anzahl der versteckte Orte"

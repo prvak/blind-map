@@ -46,7 +46,7 @@ toggle_fullscreen={
 
 [internationalization]
 
-locale/translations=PackedStringArray("res://Locale/en.po", "res://Locale/cs.po")
+locale/translations=PackedStringArray("res://Locale/en.po", "res://Locale/cs.po", "res://Locale/de.po")
 locale/locale_filter_mode=0
 
 [rendering]
