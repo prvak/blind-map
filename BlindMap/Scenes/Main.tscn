@@ -1,4 +1,4 @@
-[gd_scene load_steps=9 format=3 uid="uid://c2cssaufgdp4h"]
+[gd_scene load_steps=10 format=3 uid="uid://c2cssaufgdp4h"]
 
 [ext_resource type="PackedScene" uid="uid://cbk3gsenc1i3b" path="res://Scenes/Level.tscn" id="1_bvut5"]
 [ext_resource type="Script" path="res://Scripts/Scenes/Main.gd" id="1_vqss2"]
@@ -8,6 +8,7 @@
 [ext_resource type="Resource" uid="uid://bdse5p0qc7pdu" path="res://Data/CZ/CzArea.tres" id="5_hqgds"]
 [ext_resource type="Resource" uid="uid://b0huuqqjiqkv6" path="res://Data/GB/GbArea.tres" id="6_wopo1"]
 [ext_resource type="Resource" uid="uid://brp4k0tp53i1y" path="res://Data/PL/PlArea.tres" id="7_skd1b"]
+[ext_resource type="Resource" uid="uid://doeei8bmm76ci" path="res://Data/DE/DeArea.tres" id="8_muuld"]
 
 [node name="Main" type="Control"]
 custom_minimum_size = Vector2(1920, 1080)
@@ -44,6 +45,6 @@ offset_top = 1080.0
 offset_right = 1920.0
 offset_bottom = 2160.0
 grow_vertical = 1
-Areas = Array[Resource("res://Scripts/Resources/AreaResource.gd")]([ExtResource("4_6xir8"), ExtResource("5_hqgds"), ExtResource("6_wopo1"), ExtResource("7_skd1b")])
+Areas = Array[Resource("res://Scripts/Resources/AreaResource.gd")]([ExtResource("4_6xir8"), ExtResource("5_hqgds"), ExtResource("6_wopo1"), ExtResource("7_skd1b"), ExtResource("8_muuld")])
 
 [node name="HintOverlay" parent="." instance=ExtResource("4_stv3c")]

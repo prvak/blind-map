@@ -1,0 +1,12 @@
+[gd_resource type="Resource" script_class="LevelSequenceResource" load_steps=3 format=3 uid="uid://dgj2lhlirv0oj"]
+
+[ext_resource type="Script" path="res://Scripts/Resources/LevelSequenceResource.gd" id="1_0mjxb"]
+[ext_resource type="Resource" uid="uid://bthpdt5lnircv" path="res://Data/DE/States/Resources/DeStates.tres" id="1_6ume0"]
+
+[resource]
+script = ExtResource("1_0mjxb")
+Id = "all"
+DataSet = ExtResource("1_6ume0")
+Filter = "all"
+Name = "Bundesländer"
+Levels = ["L:1-16", "T:1-16"]

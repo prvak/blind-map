@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="DataSetResource" load_steps=3 format=3 uid="uid://bthpdt5lnircv"]
+
+[ext_resource type="Texture2D" uid="uid://dbv45p1reifh0" path="res://Data/DE/States/Graphics/Map.png" id="1_k1otq"]
+[ext_resource type="Script" path="res://Scripts/Resources/DataSetResource.gd" id="1_v4ttm"]
+
+[resource]
+script = ExtResource("1_v4ttm")
+Id = "de-states"
+MapTexture = ExtResource("1_k1otq")
+SourceFile = "res://Data/DE/States/States.txt"

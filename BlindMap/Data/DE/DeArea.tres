@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="AreaResource" load_steps=4 format=3 uid="uid://doeei8bmm76ci"]
+
+[ext_resource type="Script" path="res://Scripts/Resources/AreaResource.gd" id="1_ahrr6"]
+[ext_resource type="Texture2D" uid="uid://d0g6u5e28w0qa" path="res://Data/DE/MiniMap.png" id="1_phga5"]
+[ext_resource type="Resource" uid="uid://dgj2lhlirv0oj" path="res://Data/DE/States/Resources/Levels/DeStatesAll.tres" id="1_ua0tk"]
+
+[resource]
+script = ExtResource("1_ahrr6")
+Id = "de"
+Name = "Germany"
+LanguagePriorities = {
+"de": 100.0
+}
+MiniMapTexture = ExtResource("1_phga5")
+LevelSequences = Array[Resource("res://Scripts/Resources/LevelSequenceResource.gd")]([ExtResource("1_ua0tk")])

@@ -1,0 +1,17 @@
+id;name;x;y;z;sprite;name:cs;name:de
+S1;North Rhine-Westphalia;630;564.5;0;Data/DE/States/Graphics/States_NordrheinWestfalen.png;Severní Porýní-Vestfálsko;Nordrhein-Westfalen
+S2;Bavaria;1129;230.5;0;Data/DE/States/Graphics/States_Bayern.png;Bavorsko;Bayern
+S3;Baden-Württemberg;808;195.5;0;Data/DE/States/Graphics/States_BadenWurttemberg.png;Bádensko-Württembersko;Baden-Württemberg
+S4;Lower Saxony;823;725;0;Data/DE/States/Graphics/States_Niedersachsen.png;Dolní Sasko;Niedersachsen
+S5;Hesse;809;445;0;Data/DE/States/Graphics/States_Hessen.png;Hesensko;Hessen
+S6;Rhineland-Palatinate;581.5;368.5;0;Data/DE/States/Graphics/States_RheinlandPfalz.png;Porýní-Falc;Rheinland-Pfalz
+S7;Saxony;1401;498;0;Data/DE/States/Graphics/States_Sachsen.png;Sasko;Sachsen
+S8;Berlin;1397.5;708.5;10;Data/DE/States/Graphics/States_Berlin.png;Berlín;Berlin
+S9;Schleswig-Holstein;886;935.5;0;Data/DE/States/Graphics/States_SchleswigHolstein.png;Šlesvicko-Holštýnsko;Schleswig-Holstein
+S10;Brandenburg;1341.5;702;0;Data/DE/States/Graphics/States_Brandenburg.png;Braniborsko;Brandenburg
+S11;Saxony-Anhalt;1191.5;639.5;0;Data/DE/States/Graphics/States_SachsenAnhalt.png;Sasko-Anhaltsko;Sachsen-Anhalt
+S12;Thuringia;1110;497.5;0;Data/DE/States/Graphics/States_Thuringen.png;Durynsko;Thüringen
+S13;Hamburg;944.5;851;10;Data/DE/States/Graphics/States_Hamburg.png;Hamburk;Hamburg
+S14;Mecklenburg-Vorpommern;1274.5;893;0;Data/DE/States/Graphics/States_MecklenburgVorpommern.png;Meklenbursko-Přední Pomořansko;Mecklenburg-Vorpommern
+S15;Saarland;526;292;0;Data/DE/States/Graphics/States_Saarland.png;Sársko;Saarland
+S16;Bremen;772.5;815.5;10;Data/DE/States/Graphics/States_Bremen.png;Brémy;Bremen
