@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: 1.0.0\n"
-"PO-Revision-Date: 21.3.2023\n"
+"PO-Revision-Date: 16.5.2023\n"
 "Last-Translator: Prvaak\n"
 "Language-Team: none\n"
 "Language: cs\n"
@@ -19,6 +19,9 @@ msgstr "Bývalá okresní města"
 msgid "Cities"
 msgstr "Města"
 
+msgid "Capitals"
+msgstr "Hlavní města"
+
 msgid "Cities by population"
 msgstr "Města podle počtu obyvatel"
 
@@ -34,6 +37,9 @@ msgstr "Pohoří"
 msgid "Countries"
 msgstr "Státy"
 
+msgid "Federal states"
+msgstr "Spolkové země"
+
 msgid "Selection"
 msgstr "Výběr"
 
@@ -45,6 +51,9 @@ msgstr "Česká republika"
 
 msgid "Great Britain"
 msgstr "Velká Británie"
+
+msgid "Germany"
+msgstr "Německo"
 
 msgid "Poland"
 msgstr "Polsko"

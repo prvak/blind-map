@@ -51,10 +51,10 @@ if args.file:
         lon_column_index = headers.index(lon_column)
         if 'x' not in headers:
             headers.append('x')
-            lines = [line.strip() + ";0" for line in lines]
+            lines = [line.strip() + args.separator + "0" for line in lines]
         if 'y' not in headers:
             headers.append('y')
-            lines = [line.strip() + ";0" for line in lines]
+            lines = [line.strip() + args.separator + "0" for line in lines]
         x_column_index = headers.index("x")
         y_column_index = headers.index("y")
 

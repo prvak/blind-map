@@ -1,7 +1,7 @@
 Find cities by population at https://query.wikidata.org
-```
+￼￼￼
 #Largest cities in Czech Republic
-SELECT DISTINCT ?cityLabel ?population ?longitude ?latitude WHERE {
+​￼SELECT DISTINCT ?cityLabel ?population ?longitude ?latitude WHERE {
   ?city wdt:P31/wdt:P279* wd:Q515 .
   ?city wdt:P1082 ?population .
   FILTER(?population >= 5000)
@@ -11,7 +11,7 @@ SELECT DISTINCT ?cityLabel ?population ?longitude ?latitude WHERE {
   ?coordinate psv:P625 ?coordinate_node .
   ?coordinate_node wikibase:geoLongitude ?longitude .
   ?coordinate_node wikibase:geoLatitude ?latitude .
-  SERVICE wikibase:label {
+  ​￼SERVICE wikibase:label {
 	bd:serviceParam wikibase:language "cs" .
   }
 }

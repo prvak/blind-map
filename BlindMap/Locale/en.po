@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: 1.0.0\n"
-"PO-Revision-Date: 21.3.2023\n"
+"PO-Revision-Date: 16.5.2023\n"
 "Last-Translator: Prvaak\n"
 "Language-Team: none\n"
 "Language: en\n"
@@ -19,6 +19,9 @@ msgstr "Former district capitals"
 msgid "Cities"
 msgstr "Cities"
 
+msgid "Capitals"
+msgstr "Capitals"
+
 msgid "Cities by population"
 msgstr "Cities by population"
 
@@ -34,6 +37,9 @@ msgstr "Mountain ranges"
 msgid "Countries"
 msgstr "Countries"
 
+msgid "Federal states"
+msgstr "Federal states"
+
 msgid "Selection"
 msgstr "Selection"
 
@@ -45,6 +51,9 @@ msgstr "Czech Republic"
 
 msgid "Great Britain"
 msgstr "Great Britain"
+
+msgid "Germany"
+msgstr "Germany"
 
 msgid "Poland"
 msgstr "Poland"

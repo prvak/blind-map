@@ -8,5 +8,5 @@ script = ExtResource("1_0mjxb")
 Id = "all"
 DataSet = ExtResource("1_6ume0")
 Filter = "all"
-Name = "Bundesländer"
+Name = "Federal states"
 Levels = ["L:1-16", "T:1-16"]

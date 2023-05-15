@@ -10,6 +10,9 @@ msgstr ""
 msgid "Cities"
 msgstr ""
 
+msgid "Capitals"
+msgstr ""
+
 msgid "Cities by population"
 msgstr ""
 
@@ -25,6 +28,9 @@ msgstr ""
 msgid "Countries"
 msgstr ""
 
+msgid "Federal states"
+msgstr ""
+
 msgid "Selection"
 msgstr ""
 
@@ -35,6 +41,9 @@ msgid "Czech Republic"
 msgstr ""
 
 msgid "Great Britain"
+msgstr ""
+
+msgid "Germany"
 msgstr ""
 
 msgid "Poland"

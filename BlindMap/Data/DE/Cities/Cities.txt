@@ -1,0 +1,46 @@
+id;name;x;y;sprite;population:int;longitude:float;latitude:float;filter:capitals;name:en;name:cs
+C1;Berlin;1391;709;Graphics/Icons/City.png;3677472;13.383333333333;52.516666666667;1;Berlin;Berlín
+C2;Hamburg;940;847;Graphics/Icons/City.png;1853935;10;53.55;1;Hamburg;Hamburk
+C3;München;1150;126;Graphics/Icons/City.png;1487708;11.575;48.1375;1;Munich;Mnichov
+C4;Köln;535;500;Graphics/Icons/City.png;1073096;6.9577777777778;50.942222222222;0;Cologne;Kolín nad Rýnem
+C5;Frankfurt am Main;765;389;Graphics/Icons/City.png;759224;8.6822222222222;50.110555555556;0;Frankfurt am Main;Frankfurt nad Mohanem
+C6;Freie Hansestadt Bremen;772;791;Graphics/Icons/City.png;661000;8.7333333333333;53.133333333333;0;Bremen;Brémy
+C7;Stuttgart;831;211;Graphics/Icons/City.png;626275;9.18;48.7775;1;Stuttgart;Stuttgart
+C8;Leipzig;1256;553;Graphics/Icons/City.png;625341;12.375;51.34;0;Leipzig;Lipsko
+C9;Düsseldorf;510;538;Graphics/Icons/City.png;619477;6.7723805555556;51.231144444444;1;Düsseldorf;Düsseldorf
+C10;Leipzig;1256;553;Graphics/Icons/City.png;601866;12.375;51.34;0;Leipzig;Lipsko
+C11;Dortmund;603;576;Graphics/Icons/City.png;586852;7.4652777777778;51.513888888889;0;Dortmund;Dortmund
+C12;Essen;543;567;Graphics/Icons/City.png;579432;7.0130555555556;51.450833333333;0;Essen;Essen
+C13;Bremen;782;784;Graphics/Icons/City.png;563290;8.8088888888889;53.076944444444;1;Bremen;Brémy
+C14;Dresden;1438;514;Graphics/Icons/City.png;555351;13.74;51.05;1;Dresden;Drážďany
+C15;Hannover;905;690;Graphics/Icons/City.png;552710;9.7386111111111;52.374444444444;1;Hanover;Hannover
+C16;Nürnberg;1084;301;Graphics/Icons/City.png;510632;11.0775;49.453888888889;0;Nuremberg;Norimberk
+C17;Duisburg;509;565;Graphics/Icons/City.png;495152;6.7611111111111;51.432222222222;0;Duisburg;Duisburg
+C18;Bochum;570;572;Graphics/Icons/City.png;363441;7.2166666666667;51.483333333333;0;Bochum;Bochum
+C19;Wuppertal;565;543;Graphics/Icons/City.png;354572;7.1833333333333;51.266666666667;0;Wuppertal;Wuppertal
+C20;Bielefeld;745;643;Graphics/Icons/City.png;334002;8.5333333333333;52.016666666667;0;Bielefeld;Bielefeld
+C21;Bonn;554;472;Graphics/Icons/City.png;331885;7.0997222222222;50.733888888889;0;Bonn;Bonn
+C22;Münster;624;635;Graphics/Icons/City.png;317713;7.6255555555556;51.9625;0;Münster;Münster
+C23;Mannheim;736;306;Graphics/Icons/City.png;311831;8.4661111111111;49.487777777778;0;Mannheim;Mannheim
+C24;Karlsruhe;727;243;Graphics/Icons/City.png;306502;8.4;49.016666666667;0;Karlsruhe;Karlsruhe
+C25;Augsburg;1060;157;Graphics/Icons/City.png;296478;10.897777777778;48.368888888889;0;Augsburg;Augsburg
+C26;Wiesbaden;706;385;Graphics/Icons/City.png;278950;8.24;50.0825;1;Wiesbaden;Wiesbaden
+C27;Mönchengladbach;465;534;Graphics/Icons/City.png;261001;6.4333333333333;51.2;0;Mönchengladbach;Mönchengladbach
+C28;Gelsenkirchen;554;576;Graphics/Icons/City.png;260126;7.1;51.516666666667;0;Gelsenkirchen;Gelsenkirchen
+C29;Aachen;419;477;Graphics/Icons/City.png;249070;6.083788;50.776207;0;Aachen;Cáchy
+C30;Braunschweig;1010;676;Graphics/Icons/City.png;248823;10.521111111111;52.269166666667;0;Brunswick;Braunschweig
+C31;Kiel;959;950;Graphics/Icons/City.png;246243;10.139444444444;54.323333333333;1;Kiel;Kiel
+C32;Chemnitz;1328;485;Graphics/Icons/City.png;243105;12.916666666667;50.833333333333;0;Chemnitz;Saská Kamenice
+C33;Halle (Saale);1202;572;Graphics/Icons/City.png;238061;11.969722222222;51.482777777778;0;Halle (Saale);Halle
+C34;Magdeburg;1158;658;Graphics/Icons/City.png;236188;11.639166666667;52.131666666667;1;Magdeburg;Magdeburk
+C35;Freiburg im Breisgau;654;107;Graphics/Icons/City.png;231848;7.85;47.995;0;Freiburg im Breisgau;Freiburg im Breisgau
+C36;Krefeld;483;552;Graphics/Icons/City.png;227050;6.5666666666667;51.333333333333;0;Krefeld;Krefeld
+C37;Mainz;709;374;Graphics/Icons/City.png;217556;8.2666666666667;50;1;Mainz;Mohuč
+C38;Lübeck;1032;889;Graphics/Icons/City.png;216277;10.686388888889;53.869722222222;0;Lübeck;Lübeck
+C39;Erfurt;1077;504;Graphics/Icons/City.png;213835;11.029166666667;50.978055555556;1;Erfurt;Erfurt
+C40;Oberhausen;521;570;Graphics/Icons/City.png;208752;6.8514;51.4699;0;Oberhausen;Oberhausen
+C41;Rostock;1224;918;Graphics/Icons/City.png;208400;12.133333333333;54.083333333333;0;Rostock;Rostock
+C42;Kassel;873;549;Graphics/Icons/City.png;200406;9.4979166666667;51.315777777778;0;Kassel;Kassel
+C43;Potsdam;1348;694;Graphics/Icons/City.png;183154;13.066667;52.4;1;Potsdam;Postupim
+C44;Saarbrücken;541;272;Graphics/Icons/City.png;179634;7;49.233333;1;Saarbrücken;Saarbrücken
+C45;Schwerin;1129;858;Graphics/Icons/City.png;95740;11.416667;53.633333;1;Schwerin;Schwerin
