@@ -30,9 +30,12 @@ func _ready():
 		_set_screen(Screen.MENU)
 	else:
 		var last_level_data = _menu_node.get_level_data_by_full_id(GameData.CurrentLevelId)
-		_level_node.set_map_texture(last_level_data.MapTexture)
-		_set_screen(Screen.LEVEL)
-		_level_node.start_level(last_level_data)
+		if last_level_data:
+			_level_node.set_map_texture(last_level_data.MapTexture)
+			_set_screen(Screen.LEVEL)
+			_level_node.start_level(last_level_data)
+		else:
+			_set_screen(Screen.MENU)
 
 
 func _unhandled_input(event):
