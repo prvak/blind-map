@@ -58,6 +58,9 @@ msgstr "Německo"
 msgid "Poland"
 msgstr "Polsko"
 
+msgid "Romania"
+msgstr "Rumunsko"
+
 msgid "Home"
 msgstr "Domů"
 

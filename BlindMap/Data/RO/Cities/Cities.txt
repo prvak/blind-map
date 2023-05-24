@@ -1,0 +1,50 @@
+id;name;x;y;sprite;meta:population:int;meta:longitude:float;meta:latitude:float;name:cs;name:en;name:de;filter:selection
+C1;București;1178;256;Graphics/Icons/City.png;1716983;26.083333333333;44.4;Bukurešť;Bucharest;Bukarest;1
+C2;Cluj-Napoca;680;726;Graphics/Icons/City.png;286598;23.559444444444;46.78;Kluž;Cluj-Napoca;Cluj-Napoca;0
+C3;Iași;1476;801;Graphics/Icons/City.png;271692;27.588888888889;47.162222222222;Jasy;Iași;Jassy;7
+C4;Constanța;1683;211;Graphics/Icons/City.png;263707;28.638333333333;44.173333333333;Constanța;Constanța;Konstanza;3
+C5;Timișoara;220;525;Graphics/Icons/City.png;250849;21.23;45.759722222222;Temešvár;Timișoara;Temeschburg;4
+C6;Brașov;1083;503;Graphics/Icons/City.png;237589;25.6;45.65;Brašov;Brașov;Kronstadt;2
+C7;Craiova;731;243;Graphics/Icons/City.png;234140;23.816666666667;44.333333333333;Craiova;Craiova;Krajowa;0
+C8;Galați;1565;458;Graphics/Icons/City.png;217851;28.0425;45.423333333333;Galați;Galați;Galatz;0
+C10;Oradea;356;784;Graphics/Icons/City.png;183105;21.921111111111;47.072222222222;Oradea;Oradea;Großwardein;5
+C11;Ploiești;1166;363;Graphics/Icons/City.png;180539;26.0225;44.941111111111;Ploješť;Ploiești;Ploiești;0
+C12;Brăila;1548;428;Graphics/Icons/City.png;154686;27.9575;45.269166666667;Brăila;Brăila;Brăila;0
+C13;Arad;237;605;Graphics/Icons/City.png;145078;21.316666666667;46.166666666667;Arad;Arad;Arad;0
+C14;Pitești;941;348;Graphics/Icons/City.png;141275;24.883333333333;44.866666666667;Pitești;Pitești;Pitești;0
+C15;Bacău;1343;687;Graphics/Icons/City.png;136102;26.916666666667;46.583333333333;Bacău;Bacău;Barchau;0
+C16;Sibiu;796;532;Graphics/Icons/City.png;134308;24.15;45.8;Sibiu;Sibiu;Hermannstadt;6
+C17;Târgu Mureș;877;681;Graphics/Icons/City.png;116033;24.559722222222;46.549722222222;Târgu Mureș;Târgu Mureș;Neumarkt am Mieresch;0
+C18;Baia Mare;682;899;Graphics/Icons/City.png;108759;23.571944444444;47.656666666667;Baia Mare;Baia Mare;Baia Mare;0
+C19;Buzău;1323;404;Graphics/Icons/City.png;103481;26.816666666667;45.151666666667;Buzău;Buzău;Buzau;0
+C20;Râmnicu Vâlcea;841;395;Graphics/Icons/City.png;93151;24.375555555556;45.104722222222;Râmnicu Vâlcea;Râmnicu Vâlcea;Râmnicu Vâlcea;0
+C21;Satu Mare;548;925;Graphics/Icons/City.png;91520;22.89;47.79;Satu Mare;Satu Mare;Sathmar;0
+C22;Botoșani;1294;917;Graphics/Icons/City.png;89987;26.669444444444;47.748611111111;Botoșani;Botoșani;Botoșani;0
+C23;Suceava;1212;898;Graphics/Icons/City.png;84308;26.255555555556;47.651388888889;Sučava;Suceava;Suczawa;0
+C24;Drobeta-Turnu Severin;501;303;Graphics/Icons/City.png;79865;22.655555555556;44.636111111111;Drobeta-Turnu Severin;Drobeta-Turnu Severin;Turm Severin;0
+C25;Piatra Neamț;1235;755;Graphics/Icons/City.png;79679;26.370833333333;46.9275;Piatra Neamț;Piatra Neamț;Piatra Neamț;0
+C26;Bistrița;862;796;Graphics/Icons/City.png;78877;24.483333333333;47.133333333333;Bistrița;Bistrița;Bistritz;0
+C27;Târgu Jiu;624;381;Graphics/Icons/City.png;73544;23.274722222222;45.034166666667;Târgu Jiu;Târgu Jiu;Tergoschwyl;0
+C28;Târgoviște;1055;360;Graphics/Icons/City.png;66965;25.457222222222;44.924444444444;Târgoviște;Târgoviște;Tergowisch;0
+C29;Focșani;1395;513;Graphics/Icons/City.png;66719;27.179722222222;45.699722222222;Focșani;Focșani;Fokschan;0
+C30;Tulcea;1715;412;Graphics/Icons/City.png;65624;28.8;45.19;Tulcea;Tulcea;Tulcea;0
+C31;Alba Iulia;683;587;Graphics/Icons/City.png;64227;23.572777777778;46.076388888889;Alba Iulia;Alba Iulia;Alba Iulia;0
+C32;Slatina;839;262;Graphics/Icons/City.png;63487;24.364166666667;44.429722222222;Slatina;Slatina;Slatina;0
+C33;Vaslui;1505;700;Graphics/Icons/City.png;63035;27.73872;46.64683;Vaslui;Vaslui;Wassluy;0
+C34;Vaslui;1503;698;Graphics/Icons/City.png;63035;27.729166666667;46.638333333333;Vaslui;Vaslui;Wassluy;0
+C35;Reșița;350;434;Graphics/Icons/City.png;58393;21.890277777778;45.3;Reșița;Reșița;Reschitz;0
+C36;Călărași;1425;217;Graphics/Icons/City.png;58215;27.333333333333;44.2;Călărași;Călărași;Călărași;0
+C37;Giurgiu;1155;157;Graphics/Icons/City.png;54551;25.966666666667;43.9;Giurgiu;Giurgiu;Giurgiu;0
+C38;Popești-Leordeni;1195;252;Graphics/Icons/City.png;53431;26.17;44.38;Q926163;Popești-Leordeni;Popești-Leordeni;0
+C39;Deva;552;547;Graphics/Icons/City.png;53113;22.911666666667;45.871944444444;Deva;Deva;Deva;0
+C40;Zalău;581;807;Graphics/Icons/City.png;52132;23.057222222222;47.191111111111;Zalău;Zalău;Zillenmarkt;0
+C41;Sfântu Gheorghe;1120;545;Graphics/Icons/City.png;50080;25.787777777778;45.865277777778;Sfântu Gheorghe;Sfântu Gheorghe;Sankt Georgen;0
+C42;Voluntari;1200;274;Graphics/Icons/City.png;47366;26.191388888889;44.4925;Q639520;Voluntari;Voluntari;0
+C43;Slobozia;1432;288;Graphics/Icons/City.png;41553;27.366111111111;44.563888888889;Slobozia;Slobozia;Slobozia;0
+C44;Alexandria;1030;171;Graphics/Icons/City.png;40390;25.333333333333;43.968611111111;Alexandria;Alexandria;Alexandria;0
+C45;Bragadiru;1157;250;Graphics/Icons/City.png;40080;25.97527778;44.36944444;Q168921;Bragadiru;Bragadiru;0
+C46;Mediaș;836;604;Graphics/Icons/City.png;39505;24.350833333333;46.163888888889;Mediaș;Mediaș;Mediasch;0
+C47;Medgidia;1608;226;Graphics/Icons/City.png;34612;28.261388888889;44.250277777778;Medgidia;Medgidia;Medgidia;0
+C48;Miercurea Ciuc;1123;643;Graphics/Icons/City.png;34484;25.803888888889;46.359444444444;Miercurea Ciuc;Miercurea Ciuc;Szeklerburg;0
+C49;Năvodari;1678;240;Graphics/Icons/City.png;34398;28.6125;44.320833333333;Năvodari;Năvodari;Năvodari;0
+C50;Pantelimon;1202;266;Graphics/Icons/City.png;32873;26.203611111111;44.452777777778;Q169135;Pantelimon;Pantelimon;0

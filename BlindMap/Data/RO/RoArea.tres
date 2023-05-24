@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="AreaResource" load_steps=5 format=3 uid="uid://gbgcfsok56ai"]
+
+[ext_resource type="Script" path="res://Scripts/Resources/AreaResource.gd" id="1_cekv4"]
+[ext_resource type="Resource" uid="uid://cdo8a6pu4ss61" path="res://Data/RO/Cities/Resources/Levels/RoCitiesSelection.tres" id="1_u35da"]
+[ext_resource type="Resource" uid="uid://ck5syq8copjox" path="res://Data/RO/Cities/Resources/Levels/RoCitiesAll.tres" id="2_ctnyg"]
+[ext_resource type="Texture2D" uid="uid://dlrdql6ck1qva" path="res://Data/RO/MiniMap.png" id="3_tf2cn"]
+
+[resource]
+script = ExtResource("1_cekv4")
+Id = "ro"
+Name = "Romania"
+LanguagePriorities = {
+"cs": 50.0,
+"de": 50.0,
+"en": 50.0
+}
+MiniMapTexture = ExtResource("3_tf2cn")
+LevelSequences = Array[Resource("res://Scripts/Resources/LevelSequenceResource.gd")]([ExtResource("1_u35da"), ExtResource("2_ctnyg")])
