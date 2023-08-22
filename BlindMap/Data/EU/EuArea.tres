@@ -9,7 +9,7 @@ script = ExtResource("1_1h0kb")
 Id = "eu"
 Name = "Europe"
 LanguagePriorities = {
-"cs": 50,
+"cs": 70,
 "en": 90
 }
 MiniMapTexture = ExtResource("1_okyo1")
