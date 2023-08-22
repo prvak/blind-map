@@ -1,0 +1,15 @@
+id;name;x;y;z;sprite;name:cs
+S1;Prague;692;645;0;Data/CZ/Regions/Graphics/Regions_Prague.png;Praha
+S2;Central Bohemian Region;692;645,5;0;Data/CZ/Regions/Graphics/Regions_StredoceskyKraj.png;Středočeský kraj
+S3;South Bohemian Region;717;240,5;0;Data/CZ/Regions/Graphics/Regions_JihoceskyKraj.png;Jihočeský kraj
+S4;Plzeň Region;328,5;426;0;Data/CZ/Regions/Graphics/Regions_PlzenskyKraj.png;Plzeňský kraj
+S5;Karlovy Vary Region;220;701,5;0;Data/CZ/Regions/Graphics/Regions_KarlovarskyKraj.png;Karlovarský kraj
+S6;Ústí nad Labem Region;515,5;858;0;Data/CZ/Regions/Graphics/Regions_UsteckyKraj.png;Ústecký kraj
+S7;Liberec Region;831,5;931;0;Data/CZ/Regions/Graphics/Regions_LibereckyKraj.png;Liberecký kraj
+S8;Hradec Králové Region;1060,5;791,5;0;Data/CZ/Regions/Graphics/Regions_KralovehradeckyKraj.png;Královehradecký kraj
+S9;Pardubice Region;1132,5;579;0;Data/CZ/Regions/Graphics/Regions_PardubickyKraj.png;Pardubický kraj
+S10;Vysočina Region;1011,5;370,5;0;Data/CZ/Regions/Graphics/Regions_KrajVysocina.png;Kraj Vysočina
+S11;South Moravian Region;1272;261,5;0;Data/CZ/Regions/Graphics/Regions_JihomoravskyKraj.png;Jihomoravský kraj
+S12;Olomouc Region;1459;568,5;0;Data/CZ/Regions/Graphics/Regions_OlomouckyKraj.png;Olomoucký kraj
+S13;Zlín Region;1587;300;0;Data/CZ/Regions/Graphics/Regions_ZlinskyKraj.png;Zlínský kraj
+S14;Moravian-Silesian Region;1645;579;0;Data/CZ/Regions/Graphics/Regions_MoravskoslezskyKraj.png;Moravskoslezský kraj

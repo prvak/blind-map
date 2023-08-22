@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="DataSetResource" load_steps=3 format=3 uid="uid://dsnxi6tlkd2gm"]
+
+[ext_resource type="Texture2D" uid="uid://pk0q2iofqpnh" path="res://Data/CZ/Regions/Graphics/Regions_Map.png" id="1_gxogj"]
+[ext_resource type="Script" path="res://Scripts/Resources/DataSetResource.gd" id="2_76gi2"]
+
+[resource]
+script = ExtResource("2_76gi2")
+Id = "cz-regions"
+MapTexture = ExtResource("1_gxogj")
+SourceFile = "res://Data/CZ/Regions/Regions.txt"

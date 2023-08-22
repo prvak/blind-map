@@ -37,6 +37,9 @@ msgstr "Mountain ranges"
 msgid "Countries"
 msgstr "Countries"
 
+msgid "Regions"
+msgstr "Regions"
+
 msgid "Federal states"
 msgstr "Federal states"
 

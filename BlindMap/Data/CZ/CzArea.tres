@@ -1,4 +1,4 @@
-[gd_resource type="Resource" script_class="AreaResource" load_steps=9 format=3 uid="uid://bdse5p0qc7pdu"]
+[gd_resource type="Resource" script_class="AreaResource" load_steps=10 format=3 uid="uid://bdse5p0qc7pdu"]
 
 [ext_resource type="Resource" uid="uid://biegyoh2rfvrt" path="res://Data/CZ/Cities/Resources/Levels/CzCitiesRegion.tres" id="1_4ku0r"]
 [ext_resource type="Texture2D" uid="uid://cj4vurvtxxp8w" path="res://Data/CZ/MiniMap.png" id="1_lxwng"]
@@ -8,6 +8,7 @@
 [ext_resource type="Resource" uid="uid://clckpsstptn3t" path="res://Data/CZ/Rivers/Resources/Levels/CzRiversAll.tres" id="4_fvnoo"]
 [ext_resource type="Resource" uid="uid://clu1d1uvfssom" path="res://Data/CZ/Cities/Resources/Levels/CzCitiesDistrict.tres" id="5_5nhu1"]
 [ext_resource type="Resource" uid="uid://41gq4kyi10tf" path="res://Data/CZ/Cities/Resources/Levels/CzCitiesAll.tres" id="6_2qhyt"]
+[ext_resource type="Resource" uid="uid://bojvpxinqxnxr" path="res://Data/CZ/Regions/Resources/Levels/CzRegionsAll.tres" id="7_dku7m"]
 
 [resource]
 script = ExtResource("1_xdjjj")
@@ -17,4 +18,4 @@ LanguagePriorities = {
 "cs": 100
 }
 MiniMapTexture = ExtResource("1_lxwng")
-LevelSequences = Array[Resource("res://Scripts/Resources/LevelSequenceResource.gd")]([ExtResource("1_4ku0r"), ExtResource("2_bo02y"), ExtResource("3_hm8j8"), ExtResource("4_fvnoo"), ExtResource("5_5nhu1"), ExtResource("6_2qhyt")])
+LevelSequences = Array[Resource("res://Scripts/Resources/LevelSequenceResource.gd")]([ExtResource("1_4ku0r"), ExtResource("2_bo02y"), ExtResource("3_hm8j8"), ExtResource("4_fvnoo"), ExtResource("7_dku7m"), ExtResource("5_5nhu1"), ExtResource("6_2qhyt")])

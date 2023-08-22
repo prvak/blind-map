@@ -37,6 +37,9 @@ msgstr "Pohoří"
 msgid "Countries"
 msgstr "Státy"
 
+msgid "Regions"
+msgstr "Kraje"
+
 msgid "Federal states"
 msgstr "Spolkové země"
 

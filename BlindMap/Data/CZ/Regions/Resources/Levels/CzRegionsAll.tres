@@ -1,0 +1,12 @@
+[gd_resource type="Resource" script_class="LevelSequenceResource" load_steps=3 format=3 uid="uid://bojvpxinqxnxr"]
+
+[ext_resource type="Resource" uid="uid://dsnxi6tlkd2gm" path="res://Data/CZ/Regions/Resources/CzRegions.tres" id="1_c68bx"]
+[ext_resource type="Script" path="res://Scripts/Resources/LevelSequenceResource.gd" id="2_fcum8"]
+
+[resource]
+script = ExtResource("2_fcum8")
+Id = "all"
+DataSet = ExtResource("1_c68bx")
+Filter = "all"
+Name = "Regions"
+Levels = ["L:1-14", "T:1-14"]
