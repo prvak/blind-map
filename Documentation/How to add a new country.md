@@ -1,0 +1,52 @@
+Step by step guide for adding new country map. I will use Poland as an example here.
+
+- Find [two-letter ISO code](https://en.wikipedia.org/wiki/List_of_ISO_3166_country_codes) for the country: `PL`
+- Create directory for the country in `Graphics/Source/PL`
+- Download [Admin 0 - Countries]( https://www.naturalearthdata.com/downloads/10m-cultural-vectors/)  outlines and extract them. You will need the `*.shp` file.
+- Create new project in [QGIS](https://www.qgis.org/en/site/)
+	- Drag the `*.shp` file with countries outlines to the QGIS window, it will create new layer with country outlines.
+	- Create new layer for country outline: Layer -> Create Layer -> New shapefile layer...
+		- Filename: `Graphics/Source/PL/Layers/Outline`
+		- Geometry type: `Polygon`
+		- Select Poland in the countries outlines layer and copy it with ctrl+c. Paste it to the "Outline" layer (editing must be enabled).
+		- Change Fill color to white and Stroke color to `#bababa` and Stroke width to `0.26 mm`
+	- Create new layer for other nearby countries: Layer -> Create Layer -> New shapefile layer...
+		- Filename: `Graphics/Source/PL/Layers/OtherCountries`
+		- Geometry type: `Polygon`
+		- Select countries in the countries outlines layer, that will be visible in the final map, and copy them with ctrl+c. Paste them to the "OtherCountries" layer (editing must be enabled).
+		- Change Fill color to white and Stroke color to `#dadada` and Stroke width to `0.26 mm`
+	- Create new Print layout: Project -> New print layout
+		- Name: Outline
+		- Change page size to 1920x1080 px: Right-click on the layout page -> Page properties -> Size
+		- Add map to the page: Add item -> Add map
+			- Draw rectangle on the page using mouse.
+			- Resize the rectangle to fill the whole page.
+		- Adjust the map position: Edit -> Move content
+			- Drag the map using mouse.
+			- Zoom the map using mouse wheel.
+		- Set see color to `#d3e7ff`: Right-click on the layout page -> Item properties -> Background -> Color
+		- Mark map extents: Right-click on the layout page -> Item properties -> Extents (X min `13.643`, Y min `48.730`, X max `25.238`, Y max `55.252`)
+		- Export the map as image: Layout -> Export as image
+			- Filename: `BlindMap/Data/PL/Map.png`
+		- Create small version of the map with size `480x270` px in `BlindMap/Data/PL/MiniMap.png`
+	- Remove the layer with country outlines.
+	- Save the project in `Graphics/Source/PL/PL.qgz` to allow changes in the future.
+- Find cities on wikidata using guide in [[Cities]].
+	- Save data in csv format and save them to `BlindMap/Data/PL/Cities/Cities.txt` (txt because Godot treats files with csv extension as translations).
+	- Replace comas `,` with semicolons `;`.
+	- Change header to `name;meta:population:int;meta:longitude:float;meta:latitude:float`
+	- Add `x` and `y` columns using guide in [[Coordinates calculation]], use map extents that you marked in one of the previous steps.
+	- Add `id` column, city ids should start with `C`.
+	- Add `sprite` column with values `Graphics/Icons/City.png` (or some other sprite if necessary)
+- Create resources in Godot.
+	- New `AreaResource` in `Data/PL/PlArea.tres`.
+		- Id: `pl`
+		- Name: `Poland`
+	- New `DataSetResource` in `Data/PL/Cities/Resources/PlCities.tres`.
+		- Id: `pl-cities`
+	- New `LevelSequenceResource` in `Data/PL/Cities/Resources/Levels/PlCitiesAll.tres`.
+		- Id: `all`
+		- Data Set: `PlCities.tres`
+		- Filter: `all`
+		- Name: `Cities`
+- Add `Data/PL/PlArea.tres` to the property `Areas` in `Main/MainMenu` scene.
