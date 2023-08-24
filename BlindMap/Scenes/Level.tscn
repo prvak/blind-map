@@ -1,4 +1,4 @@
-[gd_scene load_steps=16 format=3 uid="uid://cbk3gsenc1i3b"]
+[gd_scene load_steps=17 format=3 uid="uid://cbk3gsenc1i3b"]
 
 [ext_resource type="PackedScene" uid="uid://cmyh15nvfqsbl" path="res://Scenes/Map.tscn" id="1_ey260"]
 [ext_resource type="Script" path="res://Scripts/Scenes/Level.gd" id="1_fcayt"]
@@ -12,6 +12,7 @@
 [ext_resource type="PackedScene" uid="uid://chje7aukkghdi" path="res://Scenes/IconAndTextButton.tscn" id="7_icf2y"]
 [ext_resource type="Texture2D" uid="uid://bh7p6i8cwyo6q" path="res://Graphics/Icons/ArrowRight.png" id="8_4xlmr"]
 [ext_resource type="Texture2D" uid="uid://bk7eaknigkje0" path="res://Graphics/Icons/ArrowDown.png" id="8_6f3fb"]
+[ext_resource type="PackedScene" uid="uid://ck553urxd52tj" path="res://Scenes/HoldableButton.tscn" id="8_lyjhx"]
 
 [sub_resource type="Animation" id="Animation_ymy3n"]
 resource_name = "Glint"
@@ -90,14 +91,25 @@ alignment = 1
 custom_minimum_size = Vector2(200, 0)
 layout_mode = 2
 
-[node name="HomeButton" type="Button" parent="MarginContainer/Navigation/MarginContainer"]
+[node name="HBoxContainer" type="HBoxContainer" parent="MarginContainer/Navigation/MarginContainer"]
 layout_mode = 2
+theme_override_constants/separation = 11
+
+[node name="HomeButton" type="Button" parent="MarginContainer/Navigation/MarginContainer/HBoxContainer"]
+layout_mode = 2
+size_flags_horizontal = 0
 size_flags_vertical = 4
 tooltip_text = "Home"
 focus_mode = 0
 theme = ExtResource("2_ot84r")
 icon = ExtResource("3_4vyxg")
 flat = true
+
+[node name="GiveUpButton" parent="MarginContainer/Navigation/MarginContainer/HBoxContainer" instance=ExtResource("8_lyjhx")]
+custom_minimum_size = Vector2(64, 64)
+layout_mode = 2
+size_flags_vertical = 4
+tooltip_text = "Hold to reveal selected place"
 
 [node name="Answers" parent="MarginContainer/Navigation" instance=ExtResource("2_l30iu")]
 layout_mode = 2
@@ -236,7 +248,8 @@ size_flags_horizontal = 3
 Icon = ExtResource("8_4xlmr")
 Text = "Next level"
 
-[connection signal="pressed" from="MarginContainer/Navigation/MarginContainer/HomeButton" to="." method="_on_home_button_pressed"]
+[connection signal="pressed" from="MarginContainer/Navigation/MarginContainer/HBoxContainer/HomeButton" to="." method="_on_home_button_pressed"]
+[connection signal="button_filled" from="MarginContainer/Navigation/MarginContainer/HBoxContainer/GiveUpButton" to="." method="_on_give_up_button_pressed"]
 [connection signal="button_clicked" from="TrophySceneContainer/CenterContainer/VBoxContainer/TrophyButtonsContainer/TrophyButtonsPanel/VBoxContainer/ButtonsContainer/HBoxContainer/HomeButton" to="." method="_on_home_button_pressed"]
 [connection signal="button_clicked" from="TrophySceneContainer/CenterContainer/VBoxContainer/TrophyButtonsContainer/TrophyButtonsPanel/VBoxContainer/ButtonsContainer/HBoxContainer/ReplayButton" to="." method="_on_replay_button_button_clicked"]
 [connection signal="button_clicked" from="TrophySceneContainer/CenterContainer/VBoxContainer/TrophyButtonsContainer/TrophyButtonsPanel/VBoxContainer/ButtonsContainer/HBoxContainer/NextLevelButton" to="." method="_on_next_level_button_button_clicked"]

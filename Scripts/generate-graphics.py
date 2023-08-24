@@ -216,19 +216,26 @@ def isChanged(renderFile, renderData, baseName):
     return targetFileModifiedAt < sourceFileModifiedAt or targetFileModifiedAt < renderFileModifiedAt
 
 def renderSifFile(renderData, tempFile):
+    print("---",             [
+                "/bin/synfig",
+                "--target", "png",
+                "--antialias", "30",
+                "--time", "0",
+                "--output-file", tempFile,
+                renderData["sourceFile"],
+            ], renderData["sourceFile"])
     with open(os.devnull, 'w') as devnull:
         result = subprocess.call(
             [
                 "/bin/synfig",
                 "--target", "png",
-                "--quality", "10",
                 "--antialias", "30",
                 "--time", "0",
                 "--output-file", tempFile,
                 renderData["sourceFile"],
             ],
-            stdout=devnull,
-            stderr=subprocess.STDOUT
+            #stdout=devnull,
+            #stderr=subprocess.STDOUT
         )
 
 def renderSifAnimation(renderData, tempFile):

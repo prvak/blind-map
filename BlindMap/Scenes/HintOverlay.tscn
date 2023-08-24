@@ -5,6 +5,7 @@
 
 [node name="HintOverlay" type="Control"]
 visible = false
+z_index = 100
 layout_mode = 3
 anchors_preset = 0
 offset_right = 1920.0
@@ -36,5 +37,11 @@ visible = false
 position = Vector2(960, 300)
 HintText = "You finished the level. Each level adds one new place to the map."
 ArrowTargets = PackedVector2Array(1866, 76)
+
+[node name="HintGiveUp" parent="." instance=ExtResource("1_tgmot")]
+visible = false
+position = Vector2(960, 300)
+HintText = "You can hold this button to reveal the selected place."
+ArrowTargets = PackedVector2Array(135, 86)
 
 [connection signal="gui_input" from="Panel" to="." method="_on_panel_gui_input"]

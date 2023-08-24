@@ -1,0 +1,5 @@
+type: simple
+render:
+  width: 50
+  height: 50
+

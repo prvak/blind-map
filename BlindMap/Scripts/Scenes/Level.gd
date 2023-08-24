@@ -13,6 +13,7 @@ var _level_data: LevelData
 var _quitting: bool
 var _correct_answers: int
 var _wrong_answers: int
+var _wrong_answers_since_last_correct_answer: int
 
 
 signal level_finished(level_data: LevelData, correct_answers: int, wrong_answers: int)
@@ -54,6 +55,7 @@ func start_level(level_data: LevelData):
 	_level_data = level_data
 	_correct_answers = 0
 	_wrong_answers = 0
+	_wrong_answers_since_last_correct_answer = 0
 	_quitting = false
 	var visible_answers = level_data.LevelDescription.VisibleAnswers
 	level_number_node.text = level_data.LevelDescription.Name
@@ -100,6 +102,7 @@ func _on_map_item_clicked(item):
 		map_node.clear_correct_answers()
 	if item.ItemRecord.Id == answer_selection.ItemRecord.Id:
 		_correct_answers += 1
+		_wrong_answers_since_last_correct_answer = 0
 		item.set_disabled(true)
 		answer_selection.set_disabled(true)
 		answers_node.AnswersSelectionGroup.mark_unselected(answer_selection)
@@ -148,14 +151,25 @@ func _on_map_item_clicked(item):
 			answers_node.update_visible_answers()
 	else:
 		_wrong_answers += 1
+		_wrong_answers_since_last_correct_answer += 1
 		item.set_error(true)
 		item.set_label_visible(true)
 		answer_selection.set_error(true)
-
+		if _wrong_answers_since_last_correct_answer >= 5:
+			HintToggler.request_hint("give_up")
+ 
 
 func _on_home_button_pressed():
 	_hide_trophy_container(false)
 	level_quit.emit(_level_data)
+
+
+func _on_give_up_button_pressed():
+	var answer_selection = answers_node.AnswersSelectionGroup.get_selected_item()
+	if answer_selection == null:
+		return
+	map_node.highlight_item(answer_selection.ItemRecord)
+	_wrong_answers += 10 # Penalty for revealing the correct answer.
 
 
 func _on_replay_button_button_clicked():

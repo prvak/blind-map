@@ -100,3 +100,10 @@ msgstr ""
 msgid "Remaining hidden locations"
 msgstr ""
 
+msgid "Hold to reveal selected place"
+msgstr ""
+
+msgid "You can hold this button to reveal the selected place."
+msgstr ""
+
+

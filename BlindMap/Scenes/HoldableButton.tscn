@@ -1,0 +1,84 @@
+[gd_scene load_steps=6 format=3 uid="uid://ck553urxd52tj"]
+
+[ext_resource type="Theme" uid="uid://duf2gciy0wwfv" path="res://Resources/UiTheme.tres" id="1_5d11x"]
+[ext_resource type="Script" path="res://Scripts/Scenes/HoldableButton.gd" id="1_abopb"]
+[ext_resource type="Texture2D" uid="uid://g2s040qqqnt1" path="res://Graphics/Icons/GiveUp.png" id="2_lynjm"]
+[ext_resource type="Resource" uid="uid://dg6hv4y6cteq5" path="res://Resources/LevelStyle.tres" id="3_fkmw0"]
+[ext_resource type="Texture2D" uid="uid://5fpmqq73ennc" path="res://Graphics/UI/ButtonBackground.png" id="3_p6jru"]
+
+[node name="HoldableButton" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme = ExtResource("1_5d11x")
+script = ExtResource("1_abopb")
+hold_duration = 1.5
+_fill_ratio = 0.0
+_style = ExtResource("3_fkmw0")
+
+[node name="NormalOuter" type="MarginContainer" parent="."]
+unique_name_in_owner = true
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 40.0
+mouse_filter = 2
+theme_override_constants/margin_bottom = 0
+
+[node name="NormalInner" type="MarginContainer" parent="NormalOuter"]
+unique_name_in_owner = true
+clip_contents = true
+layout_mode = 2
+mouse_filter = 2
+theme_override_constants/margin_bottom = 0
+
+[node name="Normal" type="TextureRect" parent="NormalOuter/NormalInner"]
+unique_name_in_owner = true
+modulate = Color(0.411765, 0.411765, 0.411765, 1)
+layout_mode = 2
+size_flags_vertical = 0
+mouse_filter = 2
+texture = ExtResource("2_lynjm")
+stretch_mode = 2
+
+[node name="FilledOuter" type="MarginContainer" parent="."]
+unique_name_in_owner = true
+clip_contents = true
+layout_mode = 0
+offset_right = 64.0
+offset_bottom = 64.0
+mouse_filter = 2
+theme_override_constants/margin_top = 64
+
+[node name="FilledInner" type="MarginContainer" parent="FilledOuter"]
+unique_name_in_owner = true
+clip_contents = true
+layout_mode = 2
+mouse_filter = 2
+theme_override_constants/margin_top = -64
+
+[node name="Filled" type="TextureRect" parent="FilledOuter/FilledInner"]
+clip_contents = true
+layout_mode = 2
+size_flags_vertical = 3
+size_flags_stretch_ratio = 0.0
+mouse_filter = 2
+texture = ExtResource("2_lynjm")
+stretch_mode = 2
+
+[node name="Background" type="NinePatchRect" parent="FilledOuter/FilledInner"]
+unique_name_in_owner = true
+modulate = Color(0.411765, 0.411765, 0.411765, 1)
+show_behind_parent = true
+layout_mode = 2
+texture = ExtResource("3_p6jru")
+patch_margin_left = 3
+patch_margin_top = 3
+patch_margin_right = 3
+patch_margin_bottom = 3
+
+[connection signal="gui_input" from="." to="." method="_on_gui_input"]
+[connection signal="mouse_entered" from="." to="." method="_on_mouse_entered"]
+[connection signal="mouse_exited" from="." to="." method="_on_mouse_exited"]

@@ -106,6 +106,14 @@ func clear_correct_answers():
 		item.set_disabled(false)
 
 
+func highlight_item(item_record: Record):
+	for item in _map_items:
+		item = item as MapItem
+		if item.ItemRecord.Id == item_record.Id:
+			item.set_label_visible(true)
+			item.blink()
+
+
 func _coordinates_to_position(x: float, y: float) -> Vector2:
 	var map_width = _map_sprite_size.x * _map_sprite_scale.x;
 	var map_height = _map_sprite_size.y * _map_sprite_scale.y;

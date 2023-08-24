@@ -108,3 +108,9 @@ msgstr "Level number"
 
 msgid "Remaining hidden locations"
 msgstr "Remaining hidden locations"
+
+msgid "Hold to reveal selected place"
+msgstr "Hold to reveal selected place"
+
+msgid "You can hold this button to reveal the selected place."
+msgstr "You can hold this button to reveal the selected place."

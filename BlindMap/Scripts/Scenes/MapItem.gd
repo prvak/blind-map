@@ -79,6 +79,15 @@ func set_label_visible(value: bool, transition_speed: float = LabelTransitionSpe
 	_transition_label_visible(transition_speed)
 
 
+func blink() -> void:
+	var tween = create_tween()
+	for i in range(2):
+		tween.tween_property(self, "modulate:a", 0.0, 0.1)
+		tween.tween_interval(0.1)
+		tween.tween_property(self, "modulate:a", 1.0, 0.1)
+		tween.tween_interval(0.3)
+
+
 func _on_mouse_entered():
 	if _bit_mask == null:
 		_is_hover = true

@@ -10,6 +10,7 @@ func _ready():
 	_hint_nodes["level_selection"] = get_node("HintLevelSelection")
 	_hint_nodes["level_answers"] = get_node("HintAnswers")
 	_hint_nodes["next_level"] = get_node("HintNextLevel")
+	_hint_nodes["give_up"] = get_node("HintGiveUp")
 	for hint_node in _hint_nodes.values():
 		hint_node.hint_closed.connect(_on_hint_closed)
 		hint_node.hints_disabled.connect(_on_hints_disabled)
