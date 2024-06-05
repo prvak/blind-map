@@ -18,6 +18,7 @@ shape = SubResource("RectangleShape2D_lp3ei")
 [node name="Label" type="Label" parent="."]
 unique_name_in_owner = true
 visible = false
+z_index = 15
 anchors_preset = 5
 anchor_left = 0.5
 anchor_right = 0.5
