@@ -33,9 +33,7 @@ C29;Swindon;1135;187;Graphics/Icons/City.png;222193;-1.7811111111111;51.55833333
 C30;York;1214;459;Graphics/Icons/City.png;208400;-1.0833333333333;53.95
 C31;Milton Keynes;1250;241;Graphics/Icons/City.png;207057;-0.76666666666667;52.033333333333
 C32;Solihull;1136;284;Graphics/Icons/City.png;206674;-1.772;52.413
-C34;York;1214;459;Graphics/Icons/City.png;198051;-1.0833333333333;53.95
 C35;Norwich;1484;308;Graphics/Icons/City.png;195971;1.2927777777778;52.628611111111
 C36;Peterborough;1310;302;Graphics/Icons/City.png;194000;-0.24305555555556;52.5725
 C37;Bournemouth;1124;92;Graphics/Icons/City.png;187503;-1.88;50.72
-C38;York;1214;459;Graphics/Icons/City.png;181131;-1.0833333333333;53.95
 C39;Warrington;1042;395;Graphics/Icons/City.png;165456;-2.60288;53.38732

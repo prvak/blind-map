@@ -8,7 +8,6 @@ C6;Freie Hansestadt Bremen;772;791;Graphics/Icons/City.png;661000;8.733333333333
 C7;Stuttgart;831;211;Graphics/Icons/City.png;626275;9.18;48.7775;1;Stuttgart;Stuttgart
 C8;Leipzig;1256;553;Graphics/Icons/City.png;625341;12.375;51.34;0;Leipzig;Lipsko
 C9;Düsseldorf;510;538;Graphics/Icons/City.png;619477;6.7723805555556;51.231144444444;1;Düsseldorf;Düsseldorf
-C10;Leipzig;1256;553;Graphics/Icons/City.png;601866;12.375;51.34;0;Leipzig;Lipsko
 C11;Dortmund;603;576;Graphics/Icons/City.png;586852;7.4652777777778;51.513888888889;0;Dortmund;Dortmund
 C12;Essen;543;567;Graphics/Icons/City.png;579432;7.0130555555556;51.450833333333;0;Essen;Essen
 C13;Bremen;782;784;Graphics/Icons/City.png;563290;8.8088888888889;53.076944444444;1;Bremen;Brémy
