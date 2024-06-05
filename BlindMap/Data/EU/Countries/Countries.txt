@@ -36,7 +36,7 @@ S53;Cyprus;1605;61;0;Data/EU/Countries/Graphics/Countries_Cyprus.png;Kypr
 S21;Iceland;177.5;873;0;Data/EU/Countries/Graphics/Countries_Iceland.png;Island
 S7;Bosnia and Herzegovina;1176;299.5;0;Data/EU/Countries/Graphics/Countries_BosniaAndHerzegovina.png;Bosna a Hercegovina
 S2;Albania;1243.5;224;0;Data/EU/Countries/Graphics/Countries_Albania.png;Albánie
-S31;Malta;1086.5;82.5;0;Data/EU/Countries/Graphics/Countries_Malta.png;Malta
+S31;Malta;1086.5;82.5;10;Graphics/Icons/CityState.png;Malta
 S32;Moldova;1467.5;383;0;Data/EU/Countries/Graphics/Countries_Moldova.png;Moldavsko
 S26;Kosovo;1264;262.5;0;Data/EU/Countries/Graphics/Countries_Kosovo.png;Kosovo
 S34;Montenegro;1223;266.5;0;Data/EU/Countries/Graphics/Countries_Montenegro.png;Černá Hora
