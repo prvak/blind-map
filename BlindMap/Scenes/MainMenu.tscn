@@ -111,7 +111,7 @@ size_flags_horizontal = 10
 tooltip_text = "Version"
 mouse_filter = 1
 theme = ExtResource("7_663un")
-text = "1.2.0"
+text = "1.2.1"
 
 [node name="AreaSelection" type="MarginContainer" parent="."]
 layout_mode = 2
