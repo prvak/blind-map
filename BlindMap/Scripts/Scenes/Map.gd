@@ -118,5 +118,3 @@ func _coordinates_to_position(x: float, y: float) -> Vector2:
 	var map_width = _map_sprite_size.x * _map_sprite_scale.x;
 	var map_height = _map_sprite_size.y * _map_sprite_scale.y;
 	return Vector2(x - map_width / 2, -(y - map_height / 2));
-
-

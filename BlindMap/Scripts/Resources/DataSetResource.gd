@@ -78,4 +78,3 @@ func _read_lines(path: String) -> Array:
 	while not file.eof_reached():
 		lines.append(file.get_line())
 	return lines
-

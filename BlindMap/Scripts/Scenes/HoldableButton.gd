@@ -55,10 +55,10 @@ func _update_fill():
 	var height := _normal_texture.size.y
 	var filled_height := roundi(height * _fill_ratio)
 	var normal_height := height - filled_height
-	_normal_outer_node.add_theme_constant_override("margin_bottom", filled_height)
-	_normal_inner_node.add_theme_constant_override("margin_bottom", -filled_height)
-	_filled_outer_node.add_theme_constant_override("margin_top", normal_height)
-	_filled_inner_node.add_theme_constant_override("margin_top", -normal_height)
+	_normal_outer_node.add_theme_constant_override("margin_bottom", round(filled_height))
+	_normal_inner_node.add_theme_constant_override("margin_bottom", -round(filled_height))
+	_filled_outer_node.add_theme_constant_override("margin_top", round(normal_height))
+	_filled_inner_node.add_theme_constant_override("margin_top", -round(normal_height))
 
 
 func _on_gui_input(event):

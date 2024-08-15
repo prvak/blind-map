@@ -1,9 +1,10 @@
-[gd_scene load_steps=11 format=3 uid="uid://c2cssaufgdp4h"]
+[gd_scene load_steps=12 format=3 uid="uid://c2cssaufgdp4h"]
 
 [ext_resource type="PackedScene" uid="uid://cbk3gsenc1i3b" path="res://Scenes/Level.tscn" id="1_bvut5"]
 [ext_resource type="Script" path="res://Scripts/Scenes/Main.gd" id="1_vqss2"]
 [ext_resource type="PackedScene" uid="uid://crtcb644caqq3" path="res://Scenes/MainMenu.tscn" id="3_ksbav"]
 [ext_resource type="Resource" uid="uid://b7y84ygr7wx2k" path="res://Data/EU/EuArea.tres" id="4_6xir8"]
+[ext_resource type="Script" path="res://Scripts/Resources/AreaResource.gd" id="4_17evf"]
 [ext_resource type="PackedScene" uid="uid://f0d1eqgq5pbt" path="res://Scenes/HintOverlay.tscn" id="4_stv3c"]
 [ext_resource type="Resource" uid="uid://bdse5p0qc7pdu" path="res://Data/CZ/CzArea.tres" id="5_hqgds"]
 [ext_resource type="Resource" uid="uid://b0huuqqjiqkv6" path="res://Data/GB/GbArea.tres" id="6_wopo1"]
@@ -46,6 +47,6 @@ offset_top = 1080.0
 offset_right = 1920.0
 offset_bottom = 2160.0
 grow_vertical = 1
-Areas = Array[Resource("res://Scripts/Resources/AreaResource.gd")]([ExtResource("4_6xir8"), ExtResource("5_hqgds"), ExtResource("6_wopo1"), ExtResource("7_skd1b"), ExtResource("8_muuld"), ExtResource("9_wsh70")])
+Areas = Array[ExtResource("4_17evf")]([ExtResource("4_6xir8"), ExtResource("5_hqgds"), ExtResource("6_wopo1"), ExtResource("7_skd1b"), ExtResource("8_muuld"), ExtResource("9_wsh70")])
 
 [node name="HintOverlay" parent="." instance=ExtResource("4_stv3c")]

@@ -143,10 +143,10 @@ size_flags_vertical = 3
 [node name="TrophyAnimationPlayer" type="AnimationPlayer" parent="."]
 unique_name_in_owner = true
 root_node = NodePath("../TrophySceneContainer/CenterContainer/VBoxContainer")
-speed_scale = 3.0
 libraries = {
 "": SubResource("AnimationLibrary_6oyov")
 }
+speed_scale = 3.0
 
 [node name="TrophySceneContainer" type="MarginContainer" parent="."]
 unique_name_in_owner = true
@@ -216,9 +216,9 @@ text = "Success rate:"
 
 [node name="PercentsLabel" type="Label" parent="TrophySceneContainer/CenterContainer/VBoxContainer/TrophyButtonsContainer/TrophyButtonsPanel/VBoxContainer/SuccessRateContainer/HBoxContainer"]
 unique_name_in_owner = true
+auto_translate_mode = 2
 layout_mode = 2
 size_flags_horizontal = 2
-auto_translate = false
 localize_numeral_system = false
 theme = ExtResource("2_ot84r")
 theme_override_font_sizes/font_size = 24

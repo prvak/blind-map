@@ -8,8 +8,6 @@ class_name MapItem extends Area2D
 @export var SuccessDisplayDuration: float = 1
 @export var ShowMask: bool = false
 
-signal map_item_clicked(item)
-
 var ItemRecord: Record
 var CurrentClickableGroup: ClickableGroup
 

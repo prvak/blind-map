@@ -180,5 +180,3 @@ func _on_replay_button_button_clicked():
 func _on_next_level_button_button_clicked():
 	_hide_trophy_container(false)
 	level_next.emit(_level_data)
-
-
