@@ -1,6 +1,6 @@
 [gd_resource type="Resource" script_class="LevelStyleResource" load_steps=2 format=3 uid="uid://dg6hv4y6cteq5"]
 
-[ext_resource type="Script" path="res://Scripts/Resources/LevelStyleResource.gd" id="1_vpvsg"]
+[ext_resource type="Script" uid="uid://bwl0t5eprayjx" path="res://Scripts/Resources/LevelStyleResource.gd" id="1_vpvsg"]
 
 [resource]
 script = ExtResource("1_vpvsg")

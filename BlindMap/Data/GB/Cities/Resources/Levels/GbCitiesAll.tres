@@ -1,6 +1,6 @@
 [gd_resource type="Resource" script_class="LevelSequenceResource" load_steps=3 format=3 uid="uid://cqvtj4lv6vlhw"]
 
-[ext_resource type="Script" path="res://Scripts/Resources/LevelSequenceResource.gd" id="1_5t55v"]
+[ext_resource type="Script" uid="uid://cj1qqfduqv7k0" path="res://Scripts/Resources/LevelSequenceResource.gd" id="1_5t55v"]
 [ext_resource type="Resource" uid="uid://biw0e87ecated" path="res://Data/GB/Cities/Resources/GbCities.tres" id="1_fwtgh"]
 
 [resource]

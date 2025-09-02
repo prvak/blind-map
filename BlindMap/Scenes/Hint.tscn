@@ -1,7 +1,7 @@
 [gd_scene load_steps=4 format=3 uid="uid://cccfn7scn3fwg"]
 
 [ext_resource type="Theme" uid="uid://duf2gciy0wwfv" path="res://Resources/UiTheme.tres" id="1_pujtc"]
-[ext_resource type="Script" path="res://Scripts/Scenes/Hint.gd" id="1_yhy8l"]
+[ext_resource type="Script" uid="uid://d23u6a0x22qo3" path="res://Scripts/Scenes/Hint.gd" id="1_yhy8l"]
 [ext_resource type="PackedScene" uid="uid://nc8wmma4t2fh" path="res://Scenes/Arrow.tscn" id="2_ckqsi"]
 
 [node name="Hint" type="Node2D"]

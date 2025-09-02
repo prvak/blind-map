@@ -1,6 +1,6 @@
 [gd_resource type="Resource" script_class="LevelSequenceResource" load_steps=3 format=3 uid="uid://din7ix8vhsmry"]
 
-[ext_resource type="Script" path="res://Scripts/Resources/LevelSequenceResource.gd" id="1_8bl0x"]
+[ext_resource type="Script" uid="uid://cj1qqfduqv7k0" path="res://Scripts/Resources/LevelSequenceResource.gd" id="1_8bl0x"]
 [ext_resource type="Resource" uid="uid://b37hogdaiag2m" path="res://Data/EU/Countries/Resources/EuCountries.tres" id="1_nkkwb"]
 
 [resource]

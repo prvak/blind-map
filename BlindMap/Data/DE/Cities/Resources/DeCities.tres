@@ -1,6 +1,6 @@
 [gd_resource type="Resource" script_class="DataSetResource" load_steps=3 format=3 uid="uid://buxqg6afwt8uk"]
 
-[ext_resource type="Script" path="res://Scripts/Resources/DataSetResource.gd" id="1_udnjw"]
+[ext_resource type="Script" uid="uid://b5g67lg8csji4" path="res://Scripts/Resources/DataSetResource.gd" id="1_udnjw"]
 [ext_resource type="Texture2D" uid="uid://dbv45p1reifh0" path="res://Data/DE/States/Graphics/Map.png" id="1_wtfgs"]
 
 [resource]

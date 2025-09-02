@@ -1,6 +1,6 @@
 [gd_scene load_steps=3 format=3 uid="uid://nc8wmma4t2fh"]
 
-[ext_resource type="Script" path="res://Scripts/Scenes/Arrow.gd" id="1_6lbcd"]
+[ext_resource type="Script" uid="uid://biod1qt1gkpe2" path="res://Scripts/Scenes/Arrow.gd" id="1_6lbcd"]
 [ext_resource type="Resource" uid="uid://dg6hv4y6cteq5" path="res://Resources/LevelStyle.tres" id="2_ogri5"]
 
 [node name="Arrow" type="Node2D"]

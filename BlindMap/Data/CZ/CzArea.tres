@@ -1,9 +1,9 @@
 [gd_resource type="Resource" script_class="AreaResource" load_steps=11 format=3 uid="uid://bdse5p0qc7pdu"]
 
-[ext_resource type="Script" path="res://Scripts/Resources/LevelSequenceResource.gd" id="1_2h6ok"]
 [ext_resource type="Resource" uid="uid://biegyoh2rfvrt" path="res://Data/CZ/Cities/Resources/Levels/CzCitiesRegion.tres" id="1_4ku0r"]
+[ext_resource type="Script" uid="uid://cj1qqfduqv7k0" path="res://Scripts/Resources/LevelSequenceResource.gd" id="1_huy8a"]
 [ext_resource type="Texture2D" uid="uid://cj4vurvtxxp8w" path="res://Data/CZ/MiniMap.png" id="1_lxwng"]
-[ext_resource type="Script" path="res://Scripts/Resources/AreaResource.gd" id="1_xdjjj"]
+[ext_resource type="Script" uid="uid://c5aqhtwqyheq6" path="res://Scripts/Resources/AreaResource.gd" id="1_xdjjj"]
 [ext_resource type="Resource" uid="uid://dy3ot1hlqg2f5" path="res://Data/CZ/Mountains/Resources/Levels/CzMountainsAll.tres" id="2_bo02y"]
 [ext_resource type="Resource" uid="uid://bysmlqj7ru08h" path="res://Data/CZ/Ranges/Resources/Levels/CzRangesAll.tres" id="3_hm8j8"]
 [ext_resource type="Resource" uid="uid://clckpsstptn3t" path="res://Data/CZ/Rivers/Resources/Levels/CzRiversAll.tres" id="4_fvnoo"]
@@ -19,4 +19,4 @@ LanguagePriorities = {
 "cs": 100
 }
 MiniMapTexture = ExtResource("1_lxwng")
-LevelSequences = Array[ExtResource("1_2h6ok")]([ExtResource("1_4ku0r"), ExtResource("2_bo02y"), ExtResource("3_hm8j8"), ExtResource("4_fvnoo"), ExtResource("7_dku7m"), ExtResource("5_5nhu1"), ExtResource("6_2qhyt")])
+LevelSequences = Array[ExtResource("1_huy8a")]([ExtResource("1_4ku0r"), ExtResource("2_bo02y"), ExtResource("3_hm8j8"), ExtResource("4_fvnoo"), ExtResource("7_dku7m"), ExtResource("5_5nhu1"), ExtResource("6_2qhyt")])

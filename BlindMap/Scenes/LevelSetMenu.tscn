@@ -1,6 +1,6 @@
 [gd_scene load_steps=4 format=3 uid="uid://bifv7e67pgubu"]
 
-[ext_resource type="Script" path="res://Scripts/Scenes/LevelSetMenu.gd" id="1_jg2vs"]
+[ext_resource type="Script" uid="uid://ct5llt01tg4mc" path="res://Scripts/Scenes/LevelSetMenu.gd" id="1_jg2vs"]
 [ext_resource type="PackedScene" uid="uid://ccn7l1wpd8ler" path="res://Scenes/LevelButton.tscn" id="1_xetlb"]
 [ext_resource type="Theme" uid="uid://duf2gciy0wwfv" path="res://Resources/UiTheme.tres" id="3_7srdk"]
 

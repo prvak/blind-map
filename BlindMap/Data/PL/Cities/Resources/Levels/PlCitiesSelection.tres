@@ -1,7 +1,7 @@
 [gd_resource type="Resource" script_class="LevelSequenceResource" load_steps=3 format=3 uid="uid://b04adcnvm0nde"]
 
 [ext_resource type="Resource" uid="uid://d0gm3i4ih5mm0" path="res://Data/PL/Cities/Resources/PlCities.tres" id="1_ggw5a"]
-[ext_resource type="Script" path="res://Scripts/Resources/LevelSequenceResource.gd" id="2_8kaxh"]
+[ext_resource type="Script" uid="uid://cj1qqfduqv7k0" path="res://Scripts/Resources/LevelSequenceResource.gd" id="2_8kaxh"]
 
 [resource]
 script = ExtResource("2_8kaxh")

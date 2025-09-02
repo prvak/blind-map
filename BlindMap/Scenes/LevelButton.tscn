@@ -1,7 +1,7 @@
 [gd_scene load_steps=8 format=3 uid="uid://ccn7l1wpd8ler"]
 
 [ext_resource type="Texture2D" uid="uid://d3cceygh2xeu3" path="res://Graphics/UI/Button.png" id="1_kuyqn"]
-[ext_resource type="Script" path="res://Scripts/Scenes/LevelButton.gd" id="1_olr3w"]
+[ext_resource type="Script" uid="uid://b3msc8uj5f8k7" path="res://Scripts/Scenes/LevelButton.gd" id="1_olr3w"]
 [ext_resource type="Resource" uid="uid://dg6hv4y6cteq5" path="res://Resources/LevelStyle.tres" id="2_pa6u2"]
 [ext_resource type="Theme" uid="uid://duf2gciy0wwfv" path="res://Resources/UiTheme.tres" id="4_06elq"]
 [ext_resource type="Texture2D" uid="uid://23jre4jgsbpe" path="res://Graphics/Icons/ExclamationMark.png" id="4_muh8d"]

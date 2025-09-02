@@ -1,7 +1,7 @@
 [gd_scene load_steps=6 format=3 uid="uid://ck553urxd52tj"]
 
 [ext_resource type="Theme" uid="uid://duf2gciy0wwfv" path="res://Resources/UiTheme.tres" id="1_5d11x"]
-[ext_resource type="Script" path="res://Scripts/Scenes/HoldableButton.gd" id="1_abopb"]
+[ext_resource type="Script" uid="uid://da7x0d4y7v3kv" path="res://Scripts/Scenes/HoldableButton.gd" id="1_abopb"]
 [ext_resource type="Texture2D" uid="uid://g2s040qqqnt1" path="res://Graphics/Icons/GiveUp.png" id="2_lynjm"]
 [ext_resource type="Resource" uid="uid://dg6hv4y6cteq5" path="res://Resources/LevelStyle.tres" id="3_fkmw0"]
 [ext_resource type="Texture2D" uid="uid://5fpmqq73ennc" path="res://Graphics/UI/ButtonBackground.png" id="3_p6jru"]

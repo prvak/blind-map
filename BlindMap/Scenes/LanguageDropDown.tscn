@@ -1,6 +1,6 @@
 [gd_scene load_steps=3 format=3 uid="uid://bpv080d78w8ia"]
 
-[ext_resource type="Script" path="res://Scripts/Scenes/LanguageDropDown.gd" id="1_88xle"]
+[ext_resource type="Script" uid="uid://b8xiwo7xvfl6s" path="res://Scripts/Scenes/LanguageDropDown.gd" id="1_88xle"]
 [ext_resource type="Theme" uid="uid://duf2gciy0wwfv" path="res://Resources/UiTheme.tres" id="1_fs8t7"]
 
 [node name="LanguageDropDown" type="OptionButton"]

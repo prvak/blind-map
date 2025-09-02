@@ -1,9 +1,9 @@
 [gd_scene load_steps=5 format=3 uid="uid://b5h6rdw1y3vup"]
 
-[ext_resource type="Script" path="res://Scripts/Scenes/Answers.gd" id="1_mq7fl"]
+[ext_resource type="Script" uid="uid://dc1q52w82te0s" path="res://Scripts/Scenes/Answers.gd" id="1_mq7fl"]
 [ext_resource type="PackedScene" uid="uid://bbvvhqbb4kkrn" path="res://Scenes/AnswerItem.tscn" id="1_swh86"]
 [ext_resource type="Theme" uid="uid://duf2gciy0wwfv" path="res://Resources/UiTheme.tres" id="3_ijgac"]
-[ext_resource type="Script" path="res://Scripts/Scenes/Placeholder.gd" id="4_2wqxt"]
+[ext_resource type="Script" uid="uid://wmvcolbg0s3x" path="res://Scripts/Scenes/Placeholder.gd" id="4_2wqxt"]
 
 [node name="Answers" type="Control"]
 custom_minimum_size = Vector2(0, 72)

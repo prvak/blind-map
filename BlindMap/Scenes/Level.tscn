@@ -1,7 +1,7 @@
 [gd_scene load_steps=17 format=3 uid="uid://cbk3gsenc1i3b"]
 
 [ext_resource type="PackedScene" uid="uid://cmyh15nvfqsbl" path="res://Scenes/Map.tscn" id="1_ey260"]
-[ext_resource type="Script" path="res://Scripts/Scenes/Level.gd" id="1_fcayt"]
+[ext_resource type="Script" uid="uid://pe5nd6om70iy" path="res://Scripts/Scenes/Level.gd" id="1_fcayt"]
 [ext_resource type="PackedScene" uid="uid://b5h6rdw1y3vup" path="res://Scenes/Answers.tscn" id="2_l30iu"]
 [ext_resource type="Theme" uid="uid://duf2gciy0wwfv" path="res://Resources/UiTheme.tres" id="2_ot84r"]
 [ext_resource type="Texture2D" uid="uid://c0ncfqae3wbu6" path="res://Graphics/Icons/ArrowUp.png" id="3_4vyxg"]
@@ -47,8 +47,8 @@ tracks/0/keys = {
 
 [sub_resource type="AnimationLibrary" id="AnimationLibrary_6oyov"]
 _data = {
-"Glint": SubResource("Animation_ymy3n"),
-"RESET": SubResource("Animation_xsuop")
+&"Glint": SubResource("Animation_ymy3n"),
+&"RESET": SubResource("Animation_xsuop")
 }
 
 [node name="Level" type="Control"]

@@ -1,6 +1,6 @@
 [gd_scene load_steps=3 format=3 uid="uid://f0d1eqgq5pbt"]
 
-[ext_resource type="Script" path="res://Scripts/Scenes/HintOverlay.gd" id="1_dj3tx"]
+[ext_resource type="Script" uid="uid://ceow6folspxt4" path="res://Scripts/Scenes/HintOverlay.gd" id="1_dj3tx"]
 [ext_resource type="PackedScene" uid="uid://cccfn7scn3fwg" path="res://Scenes/Hint.tscn" id="1_tgmot"]
 
 [node name="HintOverlay" type="Control"]

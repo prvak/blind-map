@@ -1,7 +1,7 @@
 [gd_resource type="Resource" script_class="DataSetResource" load_steps=3 format=3 uid="uid://byjasnytcjnkp"]
 
 [ext_resource type="Texture2D" uid="uid://bpvmiiv3nptkc" path="res://Data/RO/Map.png" id="1_sy3xd"]
-[ext_resource type="Script" path="res://Scripts/Resources/DataSetResource.gd" id="2_84v2q"]
+[ext_resource type="Script" uid="uid://b5g67lg8csji4" path="res://Scripts/Resources/DataSetResource.gd" id="2_84v2q"]
 
 [resource]
 script = ExtResource("2_84v2q")

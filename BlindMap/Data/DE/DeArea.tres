@@ -1,7 +1,7 @@
 [gd_resource type="Resource" script_class="AreaResource" load_steps=7 format=3 uid="uid://doeei8bmm76ci"]
 
-[ext_resource type="Script" path="res://Scripts/Resources/LevelSequenceResource.gd" id="1_0wpps"]
-[ext_resource type="Script" path="res://Scripts/Resources/AreaResource.gd" id="1_ahrr6"]
+[ext_resource type="Script" uid="uid://c5aqhtwqyheq6" path="res://Scripts/Resources/AreaResource.gd" id="1_ahrr6"]
+[ext_resource type="Script" uid="uid://cj1qqfduqv7k0" path="res://Scripts/Resources/LevelSequenceResource.gd" id="1_d6saa"]
 [ext_resource type="Texture2D" uid="uid://d0g6u5e28w0qa" path="res://Data/DE/MiniMap.png" id="1_phga5"]
 [ext_resource type="Resource" uid="uid://dgj2lhlirv0oj" path="res://Data/DE/States/Resources/Levels/DeStatesAll.tres" id="1_ua0tk"]
 [ext_resource type="Resource" uid="uid://bbcecf60llny2" path="res://Data/DE/Cities/Resources/Levels/DeCitiesCapitals.tres" id="2_uq7hv"]
@@ -16,4 +16,4 @@ LanguagePriorities = {
 "de": 100.0
 }
 MiniMapTexture = ExtResource("1_phga5")
-LevelSequences = Array[ExtResource("1_0wpps")]([ExtResource("1_ua0tk"), ExtResource("2_uq7hv"), ExtResource("3_lc2ss")])
+LevelSequences = Array[ExtResource("1_d6saa")]([ExtResource("1_ua0tk"), ExtResource("2_uq7hv"), ExtResource("3_lc2ss")])
