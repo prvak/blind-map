@@ -52,7 +52,7 @@ func _process(delta):
 func _update_fill():
 	if not _normal_texture:
 		return
-	var height := _normal_texture.size.y
+	var height := roundi(_normal_texture.size.y)
 	var filled_height := roundi(height * _fill_ratio)
 	var normal_height := height - filled_height
 	_normal_outer_node.add_theme_constant_override("margin_bottom", round(filled_height))
