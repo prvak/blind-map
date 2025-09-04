@@ -2,3 +2,4 @@
 .godot/
 *.translation
 export_presets.cfg
+git_hash.txt
