@@ -9,10 +9,11 @@
 script = ExtResource("2_efkfb")
 Id = "north_america"
 Name = "North America"
-LanguagePriorities = {
-"cs": 60,
-"en": 90
-}
+LanguagePriorities = Dictionary[StringName, int]({
+&"cs": 60,
+&"de": 80,
+&"en": 90
+})
 MiniMapTexture = ExtResource("2_yngj1")
 LevelSequences = Array[ExtResource("1_0ofyk")]([ExtResource("2_wur4r")])
 metadata/_custom_type_script = "uid://c5aqhtwqyheq6"

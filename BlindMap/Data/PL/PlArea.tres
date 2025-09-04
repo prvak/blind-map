@@ -9,11 +9,11 @@
 script = ExtResource("1_mtjxw")
 Id = "pl"
 Name = "Poland"
-LanguagePriorities = {
-"cs": 50.0,
-"de": 50,
-"en": 50.0,
-"pl": 100.0
-}
+LanguagePriorities = Dictionary[StringName, int]({
+&"cs": 50,
+&"de": 50,
+&"en": 50,
+&"pl": 100
+})
 MiniMapTexture = ExtResource("1_sl7at")
 LevelSequences = Array[ExtResource("1_thpdw")]([ExtResource("1_i7m5h")])
