@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="LevelSequenceResource" load_steps=3 format=3 uid="uid://nt48pg6gnjj4"]
+
+[ext_resource type="Resource" uid="uid://b58v18yd3lpkd" path="res://Data/NorthAmerica/Geography/Resources/NorthAmericaGeography.tres" id="1_03m8m"]
+[ext_resource type="Script" uid="uid://cj1qqfduqv7k0" path="res://Scripts/Resources/LevelSequenceResource.gd" id="1_7nygq"]
+
+[resource]
+script = ExtResource("1_7nygq")
+Id = "all"
+DataSet = ExtResource("1_03m8m")
+Filter = "all"
+Name = "Geography"
+Levels = ["L:1-10", "T:1-10", "L:11-20", "T:1-20", "L:21-30", "T:1-30", "L:31-40", "T:1-40", "L:41-50", "T:1-50"]
+metadata/_custom_type_script = "uid://cj1qqfduqv7k0"

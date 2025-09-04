@@ -34,10 +34,16 @@ msgstr ""
 msgid "Federal states"
 msgstr ""
 
+msgid "Geography"
+msgstr ""
+
 msgid "Selection"
 msgstr ""
 
 msgid "Europe"
+msgstr ""
+
+msgid "North America"
 msgstr ""
 
 msgid "Czech Republic"

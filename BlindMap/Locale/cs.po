@@ -43,11 +43,17 @@ msgstr "Kraje"
 msgid "Federal states"
 msgstr "Spolkové země"
 
+msgid "Geography"
+msgstr "Geografie"
+
 msgid "Selection"
 msgstr "Výběr"
 
 msgid "Europe"
 msgstr "Evropa"
+
+msgid "North America"
+msgstr "Severní Amerika"
 
 msgid "Czech Republic"
 msgstr "Česká republika"

@@ -40,6 +40,8 @@ func get_first_level_data() -> LevelData:
 
 func get_level_data(level_id: String) -> LevelData:
 	_initialize()
+	if level_id not in _level_descriptions:
+		return null
 	var level_description: LevelDescription = _level_descriptions[level_id]
 	if level_description.Type == LevelDescription.LevelType.LEARN:
 		return _get_learn_level_data(level_description)
@@ -151,4 +153,3 @@ class LevelDescription:
 				TestNumberTo = parts[2].to_int()
 				VisibleAnswers = 1
 				KeepLearningHintsVisible = false
-

@@ -203,7 +203,7 @@ def isChanged(renderFile, renderData, baseName):
         targetFile = renderData["targetFile"]
         if renderData["type"] == "layers":
             targetDir = ospath.dirname(targetFile)
-            targetFileNames = sorted(filter(lambda f: re.match(baseName + "_.*\.png$", f) != None, os.listdir(targetDir)))
+            targetFileNames = sorted(filter(lambda f: re.match(baseName + r"_.*\.png$", f) != None, os.listdir(targetDir)))
             targetFilesModifiedAt = []
             for targetFileName in targetFileNames:
                 modifiedAt = ospath.getmtime(ospath.join(targetDir, targetFileName))
@@ -308,7 +308,7 @@ def renderLayers(renderData, baseName, tempDir):
     else:
         raise Exception("Unexpected source file format: '{}'".format(renderData["sourceFile"]))
 
-    renderedFiles = sorted(filter(lambda f: re.match(".*\.png", f) != None, os.listdir(tempDir)))
+    renderedFiles = sorted(filter(lambda f: re.match(r".*\.png", f) != None, os.listdir(tempDir)))
     spriteDir = renderData["render"]["sprite"]
     os.makedirs(ospath.join(GODOT_DIR, spriteDir), exist_ok=True)
     for index, renderedFile in enumerate(renderedFiles):
@@ -324,7 +324,7 @@ def renderAnimation(renderData, baseName, tempDir):
     os.makedirs(tempDir, exist_ok=True)
 
     renderSifAnimation(renderData, tempFile)
-    renderedFiles = sorted(filter(lambda f: re.match(".*\.[0-9]+\.png", f) != None, os.listdir(tempDir)))
+    renderedFiles = sorted(filter(lambda f: re.match(r".*\.[0-9]+\.png", f) != None, os.listdir(tempDir)))
     if len(renderedFiles) == 0:
         raise Exception("No animation frames rendered from file '{}'.".format(renderData["sourceFile"]))
     columns = renderData["render"]["columns"]

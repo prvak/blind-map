@@ -144,7 +144,7 @@ size_flags_vertical = 3
 unique_name_in_owner = true
 root_node = NodePath("../TrophySceneContainer/CenterContainer/VBoxContainer")
 libraries = {
-"": SubResource("AnimationLibrary_6oyov")
+&"": SubResource("AnimationLibrary_6oyov")
 }
 speed_scale = 3.0
 

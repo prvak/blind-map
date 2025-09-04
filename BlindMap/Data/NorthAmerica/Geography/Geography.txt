@@ -1,0 +1,51 @@
+id;name;x;y;z;sprite;name:cs;name:de
+R36;Rocky Mountains;785.5;570.0;0;Data/NorthAmerica/Geography/Graphics/Geography_RockyMountains.png;Skalnaté hory;Rocky Mountains
+R35;Alaska Range;465.0;878.0;0;Data/NorthAmerica/Geography/Graphics/Geography_AlaskaRange.png;Aljašské hory;Alaskakette
+R34;Colorado Plateau;883.5;370.0;0;Data/NorthAmerica/Geography/Graphics/Geography_ColoradoPlateau.png;Koloradská plošina;Coloradoplateau
+R26;Appalachian Mountains;1300.5;583.0;0;Data/NorthAmerica/Geography/Graphics/Geography_AppalachianMountains.png;Appalačské pohoří;Appalachen
+R25;Brooks Range;501.0;976.5;0;Data/NorthAmerica/Geography/Graphics/Geography_BrooksRange.png;Brooksovo pohoří;Brookskette
+R27;Sierra Nevada;773.5;376.0;0;Data/NorthAmerica/Geography/Graphics/Geography_SierraNevada.png;Sierra Nevada;Sierra Nevada
+R28;Coast Mountains;664.5;672.5;0;Data/NorthAmerica/Geography/Graphics/Geography_CoastMountains.png;Pobřežní hory;Küstengebirge
+R29;California CoastRanges;709.0;451.5;0;Data/NorthAmerica/Geography/Graphics/Geography_CaliforniaCoastRanges.png;Kalifornské pobřežní pásmo;Küstenkette
+R30;Cascade Range;749.0;523.0;0;Data/NorthAmerica/Geography/Graphics/Geography_CascadeRange.png;Kaskádové pohoří;Kaskadenkette
+R31;Great Basin;824.5;421.5;0;Data/NorthAmerica/Geography/Graphics/Geography_GreatBasin.png;Velká pánev;Großes Becken
+R32;Central Valley;739.5;395.0;0;Data/NorthAmerica/Geography/Graphics/Geography_CentralValley.png;Centrální údolí;Kalifornisches Längstal
+R33;Columbia Plateau;798.0;523.0;0;Data/NorthAmerica/Geography/Graphics/Geography_ColumbiaPlateau.png;Kolumbijská plošina;Columbiaplateau
+R49;Siera Madre;1048.0;144.5;0;Data/NorthAmerica/Geography/Graphics/Geography_SieraMadre.png;Siera Madre;Siera Madre
+W2;Mississippi River;1140.5;456;1;Data/NorthAmerica/Geography/Graphics/Geography_MississippiRiver.png;Mississippi;Mississippi
+W1;Mackenzie River;680.5;902;1;Data/NorthAmerica/Geography/Graphics/Geography_MackenzieRiver.png;Mackenzie;Mackenzie
+W0;Colorado River;881.5;350.5;1;Data/NorthAmerica/Geography/Graphics/Geography_ColoradoRiver.png;Colorado;Colorado
+W3;Missouri River;1000;525;1;Data/NorthAmerica/Geography/Graphics/Geography_MissouriRiver.png;Missouri;Missouri
+W6;St. Lorenz;1303.5;701.0;1;Data/NorthAmerica/Geography/Graphics/Geography_StLorenz.png;Řeka svatého Vavřince;St. Lorenz Strom
+W5;Rio Grande;1029.5;294;1;Data/NorthAmerica/Geography/Graphics/Geography_RioGrande.png;Rio Grande;Rio Grande
+W4;Ohio River;1230.5;501.5;1;Data/NorthAmerica/Geography/Graphics/Geography_OhioRiver.png;Ohio;Ohio
+W7;Yukon;464;882;1;Data/NorthAmerica/Geography/Graphics/Geography_Yukon.png;Yukon;Yukon
+R12;Lake Superior;1127.5;636.5;2;Data/NorthAmerica/Geography/Graphics/Geography_LakeSuperior.png;Hořejší jezero;Oberer See
+R10;Lake Michigan;1164;581;2;Data/NorthAmerica/Geography/Graphics/Geography_LakeMichigan.png;Michiganské jezero;Michigansee
+R9;Lake Huron;1207.5;617.5;2;Data/NorthAmerica/Geography/Graphics/Geography_LakeHuron.png;Huronské jezero;Huronsee
+R8;Lake Erie;1245.5;581;2;Data/NorthAmerica/Geography/Graphics/Geography_LakeErie.png;Erijské jezero;Eriesee
+R11;Lake Ontario;1272.5;626.5;2;Data/NorthAmerica/Geography/Graphics/Geography_LakeOntario.png;Ontarijské jezero;Ontariosee
+R13;Great Bear Lake;717.0;912.0;2;Data/NorthAmerica/Geography/Graphics/Geography_GreatBearLake.png;Velké Medvědí jezero;Großer Bärensee
+R14;Great Slave Lake;795.5;839.5;2;Data/NorthAmerica/Geography/Graphics/Geography_GreatSlaveLake.png;Velké Otročí jezero;Großer Sklavensee
+R15;Lake Winnipeg;987.0;685.0;2;Data/NorthAmerica/Geography/Graphics/Geography_LakeWinnipeg.png;Winnipežské jezero;Winnipegsee
+R16;Great Salt Lake;846.5;441.5;2;Data/NorthAmerica/Geography/Graphics/Geography_GreatSaltLake.png;Velké Solné jezero;Große Salzsee
+C17;Bering Strait;325;1005;0;Graphics/Icons/CityState.png;Beringův průliv;Beringstraße
+C18;Gulf of Alaska;460;805;0;Graphics/Icons/CityState.png;Aljašský záliv;Golf von Alaska
+C19;Labrador Sea;1300;1005;0;Graphics/Icons/CityState.png;Labradorské moře;Labradorsee
+C20;Beaufort Sea;580;1030;0;Graphics/Icons/CityState.png;Beaufortovo moře;Beaufortsee
+C21;Hudson Bay;1060;860;0;Graphics/Icons/CityState.png;Hudsonův záliv;Hudsonbucht
+C22;Hudson Strait;1145;980;0;Graphics/Icons/CityState.png;Hudsonův průliv;Hudsonstraße
+C23;Gulf of California;900;180;0;Graphics/Icons/CityState.png;Kalifornský záliv;Golf von Kalifornien
+C24;Gulf of Mexico;1230;255;0;Graphics/Icons/CityState.png;Mexický záliv;Golf von Mexiko
+C37;Alaska Peninsula;360;810;2;Graphics/Icons/CityState.png;Aljašský poloostrov;Halbinsel Alaska
+C38;Baja California peninsula;860;180;2;Graphics/Icons/CityState.png;Kalifornský poloostrov;Niederkalifornien
+C39;Hispaniola;1600;270;2;Graphics/Icons/CityState.png;Hispaniola;Hispaniola
+C40;Cuba;1450;245;2;Graphics/Icons/CityState.png;Kuba;Kuba
+C41;Florida;1360;330;2;Graphics/Icons/CityState.png;Florida;Halbinsel Florida
+C42;Labrador Peninsula;1250;830;2;Graphics/Icons/CityState.png;Labrador;Labrador Halbinsel
+C43;Newfoundland;1440;860;2;Graphics/Icons/CityState.png;Newfoundland;Neufundland
+C44;The Bahamas;1475;300;2;Graphics/Icons/CityState.png;Bahamy;Bahamas
+C45;Yucatán Peninsula;1305;135;2;Graphics/Icons/CityState.png;Yucatánský poloostrov;Halbinsel Yucatán
+C46;Jamaica;1510;200;2;Graphics/Icons/CityState.png;Jamajka;Jamaika
+C47;Baffin Island;1125;1030;2;Graphics/Icons/CityState.png;Baffinův ostrov;Baffininsel
+M48;Denali/Mount McKinley;450;890;2;Graphics/Icons/Mountain.png;Denali/Mount McKinley;Denali/Mount McKinley

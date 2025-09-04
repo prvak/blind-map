@@ -43,11 +43,17 @@ msgstr ""
 msgid "Federal states"
 msgstr "Bundesländer"
 
+msgid "Geography"
+msgstr "Geographie"
+
 msgid "Selection"
 msgstr "Selektion"
 
 msgid "Europe"
 msgstr "Europa"
+
+msgid "North America"
+msgstr "Nordamerika"
 
 msgid "Czech Republic"
 msgstr "Tschechien"

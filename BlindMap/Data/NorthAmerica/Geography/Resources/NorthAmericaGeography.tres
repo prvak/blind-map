@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="DataSetResource" load_steps=3 format=3 uid="uid://b58v18yd3lpkd"]
+
+[ext_resource type="Texture2D" uid="uid://bk1jlpgixtna6" path="res://Data/NorthAmerica/Map.png" id="1_7pdff"]
+[ext_resource type="Script" uid="uid://b5g67lg8csji4" path="res://Scripts/Resources/DataSetResource.gd" id="1_i0lnr"]
+
+[resource]
+script = ExtResource("1_i0lnr")
+Id = "north_america-geography"
+MapTexture = ExtResource("1_7pdff")
+SourceFile = "res://Data/NorthAmerica/Geography/Geography.txt"
+metadata/_custom_type_script = "uid://b5g67lg8csji4"

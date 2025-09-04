@@ -13,4 +13,3 @@ R11;České středohoří;580;870;Data/CZ/Ranges/Graphics/Ranges_CeskeStredohori
 R12;Bílé Karpaty;1607;185;Data/CZ/Ranges/Graphics/Ranges_BileKarpaty.png
 R13;Lužické hory;700;1010;Data/CZ/Ranges/Graphics/Ranges_LuzickeHory.png
 R14;Brdy;520;580;Data/CZ/Ranges/Graphics/Ranges_Brdy.png
-
