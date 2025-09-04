@@ -14,6 +14,7 @@ config/name="Blind Map"
 config/name_localized={
 "cs": "Slepá Mapa"
 }
+config/version="1.3.0"
 run/main_scene="res://Scenes/Main.tscn"
 config/use_custom_user_dir=true
 config/custom_user_dir_name="BlindMap"

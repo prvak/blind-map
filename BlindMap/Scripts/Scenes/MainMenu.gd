@@ -10,7 +10,12 @@ var AreaSelectionGroup = SelectionGroup.new(false)
 
 signal level_clicked(String)
 
+
+@onready var _version_label: Label = %VersionLabel
+
+
 func _ready():
+	_version_label.text = ProjectSettings.get_setting("application/config/version")
 	LanguageSwitcher.language_switched.connect(_on_language_switched)
 	Utils.free_all_nodes(LevelSetsHolder)
 	Utils.free_all_nodes(AreaItemsHolder)
