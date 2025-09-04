@@ -118,7 +118,7 @@ func _order_areas_by_language():
 			return false
 		
 		var name_a = a.ItemLabel.text
-		var name_b = a.ItemLabel.text
+		var name_b = b.ItemLabel.text
 		if name_a != name_b:
 			return name_a < name_b
 		var index_a = children.find(a)
