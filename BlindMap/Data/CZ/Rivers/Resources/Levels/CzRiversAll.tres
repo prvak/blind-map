@@ -9,4 +9,4 @@ Id = "all"
 DataSet = ExtResource("1_xf75f")
 Filter = "all"
 Name = "Rivers"
-Levels = ["L:1-10", "T:1-10", "L:11-22", "T:1-22"]
+Levels = Array[String](["L:1-10", "T:1-10", "L:11-22", "T:1-22"])

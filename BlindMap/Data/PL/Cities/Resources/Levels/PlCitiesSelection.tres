@@ -9,4 +9,4 @@ Id = "selection"
 DataSet = ExtResource("1_ggw5a")
 Filter = "selection"
 Name = "Selection"
-Levels = ["L:1-14", "T:1-14"]
+Levels = Array[String](["L:1-14", "T:1-14"])

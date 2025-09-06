@@ -4,7 +4,7 @@ class_name LevelSequenceResource extends Resource
 @export var DataSet: DataSetResource
 @export var Filter: String
 @export var Name: String
-@export var Levels: Array
+@export var Levels: Array[String]
 
 var _records: Array = []
 var _level_descriptions: Dictionary = {}

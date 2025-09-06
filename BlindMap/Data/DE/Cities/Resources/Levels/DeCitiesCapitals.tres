@@ -9,4 +9,4 @@ Id = "capitals"
 DataSet = ExtResource("1_0gih3")
 Filter = "capitals"
 Name = "Capitals"
-Levels = ["L:1-16", "T:1-16"]
+Levels = Array[String](["L:1-16", "T:1-16"])
