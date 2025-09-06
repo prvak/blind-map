@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="LevelSequenceResource" load_steps=3 format=3 uid="uid://bv3jqp0urgqyb"]
+
+[ext_resource type="Script" uid="uid://cj1qqfduqv7k0" path="res://Scripts/Resources/LevelSequenceResource.gd" id="1_17f68"]
+[ext_resource type="Resource" uid="uid://dgmdu6mfpm3dy" path="res://Data/Africa/Geography/Resources/AfricaGeography.tres" id="1_l8uey"]
+
+[resource]
+script = ExtResource("1_17f68")
+Id = "all"
+DataSet = ExtResource("1_l8uey")
+Filter = "all"
+Name = "Geography"
+Levels = Array[String](["L:1-10", "T:1-10", "L:11-20", "T:1-20", "L:21-30", "T:1-30", "L:31-44", "T:1-44"])
+metadata/_custom_type_script = "uid://cj1qqfduqv7k0"

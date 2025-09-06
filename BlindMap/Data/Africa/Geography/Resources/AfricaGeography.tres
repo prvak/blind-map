@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="DataSetResource" load_steps=3 format=3 uid="uid://dgmdu6mfpm3dy"]
+
+[ext_resource type="Script" uid="uid://b5g67lg8csji4" path="res://Scripts/Resources/DataSetResource.gd" id="1_7fhfs"]
+[ext_resource type="Texture2D" uid="uid://c8jkk8ggxuglw" path="res://Data/Africa/Map.png" id="1_jpbao"]
+
+[resource]
+script = ExtResource("1_7fhfs")
+Id = "africa-geography"
+MapTexture = ExtResource("1_jpbao")
+SourceFile = "res://Data/Africa/Geography/Geography.txt"
+metadata/_custom_type_script = "uid://b5g67lg8csji4"

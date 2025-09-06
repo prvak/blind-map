@@ -1,0 +1,19 @@
+[gd_resource type="Resource" script_class="AreaResource" load_steps=5 format=3 uid="uid://q151ytod3osq"]
+
+[ext_resource type="Script" uid="uid://cj1qqfduqv7k0" path="res://Scripts/Resources/LevelSequenceResource.gd" id="1_k1psb"]
+[ext_resource type="Texture2D" uid="uid://cye3f43e4s8jc" path="res://Data/Africa/MiniMap.png" id="2_751vf"]
+[ext_resource type="Script" uid="uid://c5aqhtwqyheq6" path="res://Scripts/Resources/AreaResource.gd" id="2_hwmgx"]
+[ext_resource type="Resource" uid="uid://bv3jqp0urgqyb" path="res://Data/Africa/Geography/Resources/Levels/AfricaGeographyAll.tres" id="2_ro7jm"]
+
+[resource]
+script = ExtResource("2_hwmgx")
+Id = "africa"
+Name = "Africa"
+LanguagePriorities = Dictionary[StringName, int]({
+&"cs": 59,
+&"de": 69,
+&"en": 79
+})
+MiniMapTexture = ExtResource("2_751vf")
+LevelSequences = Array[ExtResource("1_k1psb")]([ExtResource("2_ro7jm")])
+metadata/_custom_type_script = "uid://c5aqhtwqyheq6"

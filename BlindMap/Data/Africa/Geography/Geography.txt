@@ -1,0 +1,45 @@
+id;name;x;y;z;sprite;name:cs;name:de
+R0;Sahara;886.0;862.0;0;Data/Africa/Geography/Graphics/Geography_Sahara.png;Sahara;Sahara
+W28;Nile River;1184;864.5;3;Data/Africa/Geography/Graphics/Geography_NileRiver.png;Nil;Nil
+W27;Niger;717.5;675;5;Data/Africa/Geography/Graphics/Geography_Niger.png;Niger;Niger
+W24;Orange River;1056;96;5;Data/Africa/Geography/Graphics/Geography_OrangeRiver.png;Oranžská řeka;Oranje
+C59;Madagascar;1381;241;1;Graphics/Icons/CityState.png;Madagaskar;Madagaskar
+W23;Lake Victoria;1198.5;503.5;5;Data/Africa/Geography/Graphics/Geography_LakeVictoria.png;Viktoriino jezero;Victoriasee
+W26;Congo;1002.5;494;5;Data/Africa/Geography/Graphics/Geography_Congo.png;Kongo;Kongo
+R4;Ethiopian Highlands;1270;662;1;Data/Africa/Geography/Graphics/Geography_EthiopianHighlands.png;Etiopská vysočina;Hochland von Äthiopien
+R9;Drakensberg;1144;131;1;Data/Africa/Geography/Graphics/Geography_Drakensberg.png;Dračí hory;Drakensberge
+C57;Arabian Peninsula;1364;858;1;Graphics/Icons/CityState.png;Arabský poloostrov;Arabische Halbinsel
+W22;Lake Chad;943;711;5;Data/Africa/Geography/Graphics/Geography_LakeChad.png;Čadské jezero;Tschadsee
+R3;Atlas;741;986.5;1;Data/Africa/Geography/Graphics/Geography_Atlas.png;Atlas;Atlasgebirge
+R5;Red Sea;1272;827;1;Data/Africa/Geography/Graphics/Geography_RedSea.png;Rudé moře;Rotes Meer
+C52;Strait of Gibraltar;662;1044;1;Graphics/Icons/CityState.png;Gibraltarský průliv;Straße von Gibraltar
+R7;Azande;1048.5;651;1;Data/Africa/Geography/Graphics/Geography_Azande.png;Azande;Assandeschwelle
+C60;Comoros;1345;347;1;Graphics/Icons/CityState.png;Komory;Komoren
+R16;East African Rift;1236;460;1;Data/Africa/Geography/Graphics/Geography_EastAfricanRift.png;Východoafrický rift;Ostafrikanische Schwelle
+R12;Namib;947;219;1;Data/Africa/Geography/Graphics/Geography_Namib.png;Namibská poušť;Namib
+R13;Niger Basin;797;728.5;1;Data/Africa/Geography/Graphics/Geography_NigerBasin.png;Nigerská pánev;Nigerbecken
+R18;Congo Basin;1029;514;1;Data/Africa/Geography/Graphics/Geography_CongoBasin.png;Konžská pánev;Kongobecken
+W20;Lake Malawi;1216.5;348.5;5;Data/Africa/Geography/Graphics/Geography_LakeMalawi.png;Malawi;Malawisee
+W21;Lake Tanganyika;1156;434;5;Data/Africa/Geography/Graphics/Geography_LakeTanganyika.png;Tanganika;Tanganjikasee
+W25;Zambezi;1147.5;306.5;5;Data/Africa/Geography/Graphics/Geography_Zambezi.png;Zambezi;Sambesi
+R15;Eastern Desert;1196.5;904.5;5;Data/Africa/Geography/Graphics/Geography_EasternDesert.png;Východní poušť;Arabische Wüste
+R1;Hoggar Mountains;829;843;1;Data/Africa/Geography/Graphics/Geography_HoggarMountains.png;Ahaggar;Ahaggar
+R17;Albertine Rift;1179;431.5;1;Data/Africa/Geography/Graphics/Geography_AlbertineRift.png;Středoafrický rift;Zentralafrikanische Schwelle
+R11;Guinea Highlands;660.5;670;1;Data/Africa/Geography/Graphics/Geography_GuineaHighlands.png;Guinejská vysočina;Oberguineaschwelle
+R2;Tibesti;1002.5;819;1;Data/Africa/Geography/Graphics/Geography_Tibesti.png;Tibesti;Tibesti
+R8;Lunda Plateau;1062.5;373.5;1;Data/Africa/Geography/Graphics/Geography_LundaPlateau.png;Plošina Lunda-Katanga;Lundaschwelle
+R6;Kalahari Basin;1049.5;171.5;1;Data/Africa/Geography/Graphics/Geography_KalahariBasin.png;Kalahari;Kalaharibecken
+R10;Libyan Desert;1079.0;895.0;1;Data/Africa/Geography/Graphics/Geography_LibyanDesert.png;Libyjská poušť;Libysche Wüste
+R14;Nubian Desert;1198.0;827.0;4;Data/Africa/Geography/Graphics/Geography_NubianDesert.png;Núbijská poušť;Nubische Wüste
+R19;Chad Basin;948;719;1;Data/Africa/Geography/Graphics/Geography_ChadBasin.png;Čadská pánev;Tschadbecken
+M70;Mount Kilimanjaro;1250;480;5;Graphics/Icons/Mountain.png;Kilimandžáro;Kilimandscharo
+C62;Cape of Good Hope;998;28;1;Graphics/Icons/CityState.png;Mys Dobré naděje;Kap der Guten Hoffnung
+C54;Gulf of Sidra;1000;988;1;Graphics/Icons/CityState.png;Velká Syrta;Große Syrte
+C55;Gulf of Gabès;900;1018;1;Graphics/Icons/CityState.png;Malá Syrta;Kleine Syrte
+C61;Seychelles;1498;452;1;Graphics/Icons/CityState.png;Seychely;Seychellen
+C58;Sinai Peninsula;1208;952;1;Graphics/Icons/CityState.png;Sinajský poloostrov;Sinai Halbinsel
+C56;Somali Peninsula;1430;670;1;Graphics/Icons/CityState.png;Somálský poloostrov;Somali Halbinsel
+C53;Gulf of Guinea;792;541;1;Graphics/Icons/CityState.png;Guinejský záliv;Golf von Guinea
+C51;Gulf of Aden;1390;700;1;Graphics/Icons/CityState.png;Adenský záliv;Golf von Aden
+C50;Mozambique Channel;1320;290;1;Graphics/Icons/CityState.png;Mosambický průliv;Straße von Mosambik
+C63;Canary Islands;512;924;1;Graphics/Icons/CityState.png;Kanárské ostrovy;Kanarischen Inseln

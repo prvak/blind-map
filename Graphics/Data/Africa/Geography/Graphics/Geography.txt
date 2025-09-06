@@ -1,0 +1,30 @@
+id;name;x;y;z;sprite;name:cs;name:de
+0;Sahara;886;862;0;Sahara.png;Sahara;Sahara
+1;HoggarMountains;829;843;0;HoggarMountains.png;Ahaggar;Ahaggar
+2;Tibesti;1002.5;819;0;Tibesti.png;Tibesti;Tibesti
+3;Atlas;741;986.5;0;Atlas.png;Atlas;Atlasgebirge
+4;EthiopianHighlands;1270;662;0;EthiopianHighlands.png;Etiopská vysočina;Hochland von Äthiopien
+5;RedSea;1272;827;0;RedSea.png;Rudé moře;Rotes Meer
+6;KalahariBasin;1049.5;171.5;0;KalahariBasin.png;Kalahari;Kalaharibecken
+7;Azande;1048.5;651;0;Azande.png;Azande;Assandeschwelle
+8;LundaPlateau;1062.5;373.5;0;LundaPlateau.png;Plošina Lunda-Katanga;Lundaschwelle
+9;Drakensberg;1144;131;0;Drakensberg.png;Dračí hory;Drakensberge
+10;LibyanDesert;1084;895;0;LibyanDesert.png;Libyjská poušť;Libysche Wüste
+11;GuineaHighlands;660.5;670;0;GuineaHighlands.png;Guinejská vysočina;Oberguineaschwelle
+12;Namib;947;219;0;Namib.png;Namibská poušť;Namib
+13;NigerBasin;797;728.5;0;NigerBasin.png;Nigerská pánev;Nigerbecken
+14;NubianDesert;1192;829;0;NubianDesert.png;Núbijská poušť;Nubische Wüste
+15;EasternDesert;1201.5;898.5;0;EasternDesert.png;Východní poušť;Arabische Wüste
+16;EastAfricanRift;1236;460;0;EastAfricanRift.png;Východoafrický rift;Ostafrikanischer Graben
+17;AlbertineRift;1179;431.5;0;AlbertineRift.png;Středoafrický rift;Zentralafrikanischer Graben
+18;CongoBasin;1029;514;0;CongoBasin.png;Konžská pánev;Kongobecken
+19;ChadBasin;948;719;0;ChadBasin.png;Čadská pánev;Tschadbecken
+20;LakeMalawi;1216.5;348.5;0;LakeMalawi.png;Malawi;Malawisee
+21;LakeTanganyika;1156;434;0;LakeTanganyika.png;Tanganika;Tanganjikasee
+22;LakeChad;943;711;0;LakeChad.png;Čadské jezero;Tschadsee
+23;LakeVictoria;1198.5;503.5;0;LakeVictoria.png;Viktoriino jezero;Victoriasee
+24;OrangeRiver;1056;96;0;OrangeRiver.png;Oranžská řeka;Oranje
+25;Zambezi;1147.5;306.5;0;Zambezi.png;Zambezi;Sambesi
+26;Congo;1002.5;494;0;Congo.png;Kongo;Kongo
+27;Niger;717.5;675;0;Niger.png;Niger;Niger
+28;NileRiver;1184;864.5;0;NileRiver.png;Nil;Nil
