@@ -4,7 +4,7 @@ set -euo pipefail
 
 # Script for exporting Godot project.
 
-GODOT="godot4.4"
+GODOT="godot4.5"
 PROJECT_NAME="Blind Map"
 ITCH_IO_PROJECT_NAME="blind-map"
 
